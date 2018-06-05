@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="magic-world" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="magic-world" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++14" />
+					<Add directory="../BULLET_PHYSICS/include" />
+					<Add directory="../saba/include" />
+					<Add directory="external/glm/include" />
+					<Add directory="external/gl3w/include" />
+					<Add directory="../freetype/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add library="glu32" />
+					<Add library="opengl32" />
+					<Add library="Saba" />
+					<Add library="Bullet2FileLoader" />
+					<Add library="Bullet3Collision" />
+					<Add library="Bullet3Common" />
+					<Add library="Bullet3Dynamics" />
+					<Add library="Bullet3Geometry" />
+					<Add library="Bullet3OpenCL_clew" />
+					<Add library="BulletDynamics" />
+					<Add library="BulletCollision" />
+					<Add library="BulletFileLoader" />
+					<Add library="BulletInverseDynamics" />
+					<Add library="BulletInverseDynamicsUtils" />
+					<Add library="BulletRobotics" />
+					<Add library="BulletSoftBody" />
+					<Add library="BulletWorldImporter" />
+					<Add library="BulletXmlWorldImporter" />
+					<Add library="ConvexDecomposition" />
+					<Add library="GIMPACTUtils" />
+					<Add library="HACD" />
+					<Add library="LinearMath" />
+					<Add library="freetype" />
+					<Add directory="../BULLET_PHYSICS/lib" />
+					<Add directory="../saba/lib" />
+					<Add directory="../freetype/win32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+		</Linker>
+		<Unit filename="block/Block.cpp" />
+		<Unit filename="block/Block.h" />
+		<Unit filename="block/Dirt.cpp" />
+		<Unit filename="block/Dirt.h" />
+		<Unit filename="block/blockshape/BlockShape.cpp" />
+		<Unit filename="block/blockshape/BlockShape.h" />
+		<Unit filename="client/GameClient.cpp" />
+		<Unit filename="client/GameClient.h" />
+		<Unit filename="client/gui/gui.cpp" />
+		<Unit filename="client/gui/gui.h" />
+		<Unit filename="client/gui/guiElement/GuiElement.cpp" />
+		<Unit filename="client/gui/guiElement/GuiElement.h" />
+		<Unit filename="client/gui/guiElement/TButton.cpp" />
+		<Unit filename="client/gui/guiElement/TButton.h" />
+		<Unit filename="client/gui/screen/BaseScreen.cpp" />
+		<Unit filename="client/gui/screen/BaseScreen.h" />
+		<Unit filename="client/gui/screen/GamePlayScreen.cpp" />
+		<Unit filename="client/gui/screen/GamePlayScreen.h" />
+		<Unit filename="client/gui/screen/PauseScreen.cpp" />
+		<Unit filename="client/gui/screen/PauseScreen.h" />
+		<Unit filename="client/gui/screen/PlayScreen.cpp" />
+		<Unit filename="client/gui/screen/PlayScreen.h" />
+		<Unit filename="client/render/BaseRenderer.cpp" />
+		<Unit filename="client/render/BaseRenderer.h" />
+		<Unit filename="client/render/GameRenderer.cpp" />
+		<Unit filename="client/render/GameRenderer.h" />
+		<Unit filename="client/render/Light.cpp" />
+		<Unit filename="client/render/Light.h" />
+		<Unit filename="client/render/MMDRenderer.cpp" />
+		<Unit filename="client/render/MMDRenderer.h" />
+		<Unit filename="client/render/ObjectGroup.cpp" />
+		<Unit filename="client/render/ObjectGroup.h" />
+		<Unit filename="client/render/RendererContext.cpp" />
+		<Unit filename="client/render/RendererContext.h" />
+		<Unit filename="client/render/Textures.cpp" />
+		<Unit filename="client/render/Textures.h" />
+		<Unit filename="client/render/WorldRenderer.cpp" />
+		<Unit filename="client/render/WorldRenderer.h" />
+		<Unit filename="entity/Entity.cpp" />
+		<Unit filename="entity/Entity.h" />
+		<Unit filename="entity/player/Player.cpp" />
+		<Unit filename="entity/player/Player.h" />
+		<Unit filename="external/gl3w/src/gl3w.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="stb/stb.h" />
+		<Unit filename="stb/stb_c_lexer.h" />
+		<Unit filename="stb/stb_connected_components.h" />
+		<Unit filename="stb/stb_divide.h" />
+		<Unit filename="stb/stb_dxt.h" />
+		<Unit filename="stb/stb_easy_font.h" />
+		<Unit filename="stb/stb_herringbone_wang_tile.h" />
+		<Unit filename="stb/stb_image.h" />
+		<Unit filename="stb/stb_image_resize.h" />
+		<Unit filename="stb/stb_image_write.h" />
+		<Unit filename="stb/stb_leakcheck.h" />
+		<Unit filename="stb/stb_perlin.h" />
+		<Unit filename="stb/stb_rect_pack.h" />
+		<Unit filename="stb/stb_sprintf.h" />
+		<Unit filename="stb/stb_textedit.h" />
+		<Unit filename="stb/stb_tilemap_editor.h" />
+		<Unit filename="stb/stb_truetype.h" />
+		<Unit filename="stb/stb_vorbis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stb/stb_voxel_render.h" />
+		<Unit filename="stb/stretchy_buffer.h" />
+		<Unit filename="utils/NoiseGenerator.cpp" />
+		<Unit filename="utils/NoiseGenerator.h" />
+		<Unit filename="utils/Utils.cpp" />
+		<Unit filename="utils/Utils.h" />
+		<Unit filename="utils/VecUtils.cpp" />
+		<Unit filename="utils/VecUtils.h" />
+		<Unit filename="world/GameWorld.cpp" />
+		<Unit filename="world/GameWorld.h" />
+		<Unit filename="world/chunk/BaseChunk.cpp" />
+		<Unit filename="world/chunk/BaseChunk.h" />
+		<Unit filename="world/generation/WorldGenerator.cpp" />
+		<Unit filename="world/generation/WorldGenerator.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

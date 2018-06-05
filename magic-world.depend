@@ -1,0 +1,5806 @@
+# depslib dependency file v1.0
+1526119462 source:f:\myprojects\realcraft\main.cpp
+	"main.h"
+	"GL/gl3w.h"
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"utils/Utils.h"
+
+1522595648 f:\myprojects\realcraft\main.h
+	<fstream>
+	<sstream>
+	<vector>
+	"client/GameClient.h"
+
+1522053468 f:\myprojects\realcraft\client\gameclient.hpp
+	"render/GameRenderer.hpp"
+	"listener/KeyBoardListener.hpp"
+	"../entity/player/Player.hpp"
+	<math.h>
+
+1522227982 f:\myprojects\realcraft\client\render\gamerenderer.hpp
+	<GL/gl3w.h>
+	<Gl/gl.h>
+	<GL/wglext.h>
+
+1521117508 f:\myprojects\realcraft\client\render\textures.hpp
+	<windows.h>
+	"../../stb/stb_image.h"
+
+1518253996 f:\myprojects\realcraft\client\listener\keyboardlistener.hpp
+	<vector>
+
+1518250388 f:\myprojects\realcraft\entity\player\player.hpp
+	"../Entity.hpp"
+
+1518250662 f:\myprojects\realcraft\entity\entity.hpp
+
+1526119462 source:e:\myprojects\realcraft\main.cpp
+	"main.h"
+	"GL/gl3w.h"
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"utils/Utils.h"
+
+1522595648 e:\myprojects\realcraft\main.h
+	<fstream>
+	<sstream>
+	<vector>
+	"client/GameClient.h"
+
+1521986204 e:\myprojects\realcraft\client\gameclient.hpp
+	"render/GameRenderer.hpp"
+	"listener/KeyBoardListener.hpp"
+	"../entity/player/Player.hpp"
+	<math.h>
+
+1521987648 e:\myprojects\realcraft\client\render\gamerenderer.hpp
+	<GL/gl3w.h>
+	<Gl/gl.h>
+	<GL/wglext.h>
+
+1521117508 e:\myprojects\realcraft\client\render\textures.hpp
+	<windows.h>
+	"../../stb/stb_image.h"
+
+903428686 e:\glutdlls37beta\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1471499560 e:\glfw-3.2.1.bin.win32\glfw-3.2.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1518253996 e:\myprojects\realcraft\client\listener\keyboardlistener.hpp
+	<vector>
+
+1518250388 e:\myprojects\realcraft\entity\player\player.hpp
+	"../Entity.hpp"
+
+1518250662 e:\myprojects\realcraft\entity\entity.hpp
+
+1524373216 source:e:\myprojects\realcraft\resource.rc
+
+1526119462 source:h:\myprojects\realcraft\main.cpp
+	"main.h"
+	"GL/gl3w.h"
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"utils/Utils.h"
+
+1522595648 h:\myprojects\realcraft\main.h
+	<fstream>
+	<sstream>
+	<vector>
+	"client/GameClient.h"
+
+1520755800 h:\myprojects\realcraft\client\gameclient.hpp
+	"render/GameRenderer.hpp"
+	"listener/KeyBoardListener.hpp"
+	"../entity/player/Player.hpp"
+	<math.h>
+
+1521281118 h:\myprojects\realcraft\client\render\gamerenderer.hpp
+	<glut.h>
+	"Textures.hpp"
+	<Saba\Model\MMD\PMDModel.h>
+	"MMDRenderer.hpp"
+
+1521117508 h:\myprojects\realcraft\client\render\textures.hpp
+	<windows.h>
+	"../../stb/stb_image.h"
+
+903428686 h:\glutdlls37beta\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1471499560 h:\glfw-3.2.1.bin.win32\glfw-3.2.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1518253996 h:\myprojects\realcraft\client\listener\keyboardlistener.hpp
+	<vector>
+
+1518250388 h:\myprojects\realcraft\entity\player\player.hpp
+	"../Entity.hpp"
+
+1518250662 h:\myprojects\realcraft\entity\entity.hpp
+
+1524373216 source:h:\myprojects\realcraft\resource.rc
+
+1524373216 source:f:\myprojects\realcraft\resource.rc
+
+903428686 f:\glutdlls37beta\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1471499560 f:\glfw-3.2.1.bin.win32\glfw-3.2.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1520029418 f:\saba\include\saba\model\mmd\pmxmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	"MMDIkSolver.h"
+	"PMXFile.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<vector>
+	<string>
+	<algorithm>
+	<future>
+
+1520029418 f:\saba\include\saba\model\mmd\mmdmaterial.h
+	<string>
+	<cstdint>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1520029418 f:\saba\include\saba\model\mmd\mmdmodel.h
+	"MMDNode.h"
+	"MMDIkSolver.h"
+	"MMDMorph.h"
+	<vector>
+	<string>
+	<algorithm>
+	<cstdint>
+	<memory>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+
+1520029418 f:\saba\include\saba\model\mmd\mmdnode.h
+	<string>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/mat4x4.hpp>
+
+1520029418 f:\saba\include\saba\model\mmd\mmdiksolver.h
+	"MMDNode.h"
+	<vector>
+	<string>
+	<glm/vec3.hpp>
+
+1520029418 f:\saba\include\saba\model\mmd\mmdmorph.h
+	<string>
+
+1520029418 f:\saba\include\saba\model\mmd\pmxfile.h
+	"MMDFileString.h"
+	<cstdint>
+	<string>
+	<vector>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/quaternion.hpp>
+
+1520029418 f:\saba\include\saba\model\mmd\mmdfilestring.h
+	<Saba/Base/UnicodeUtil.h>
+	<Saba/Base/File.h>
+	"SjisToUnicode.h"
+	<string>
+
+1520029418 f:\saba\include\saba\base\unicodeutil.h
+	<string>
+	<array>
+
+1520029418 f:\saba\include\saba\base\file.h
+	<cstdio>
+	<vector>
+	<cstdint>
+	<string>
+
+1520029418 f:\saba\include\saba\model\mmd\sjistounicode.h
+	<string>
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle.hpp
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle_func.hpp
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4_simd.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4_simd.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational_simd.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\simd\exponential.h
+	"platform.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\simd\common.h
+	"platform.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\simd\geometric.h
+	"common.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\simd\matrix.h
+	"geometric.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\constants.inl
+	<limits>
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric_simd.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion_simd.inl
+
+1520029418 f:\saba\include\saba\model\mmd\pmdmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/mat4x4.hpp>
+	<vector>
+	<string>
+	<algorithm>
+
+1518830068 source:f:\myprojects\realcraft\stb\stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	<limits.h>
+	<crtdbg.h>
+
+1518830068 f:\myprojects\realcraft\stb\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1518830068 h:\myprojects\realcraft\stb\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1520029418 h:\saba\include\saba\model\mmd\pmdmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/mat4x4.hpp>
+	<vector>
+	<string>
+	<algorithm>
+
+1520029418 h:\saba\include\saba\model\mmd\mmdmaterial.h
+	<string>
+	<cstdint>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle.hpp
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle_func.hpp
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4_simd.inl
+
+1520029418 h:\saba\include\saba\model\mmd\mmdmodel.h
+	"MMDNode.h"
+	"MMDIkSolver.h"
+	"MMDMorph.h"
+	<vector>
+	<string>
+	<algorithm>
+	<cstdint>
+	<memory>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+
+1520029418 h:\saba\include\saba\model\mmd\mmdnode.h
+	<string>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/mat4x4.hpp>
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4_simd.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational_simd.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\simd\exponential.h
+	"platform.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\simd\common.h
+	"platform.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\simd\geometric.h
+	"common.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\simd\matrix.h
+	"geometric.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\constants.inl
+	<limits>
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric_simd.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion_simd.inl
+
+1520029418 h:\saba\include\saba\model\mmd\mmdiksolver.h
+	"MMDNode.h"
+	<vector>
+	<string>
+	<glm/vec3.hpp>
+
+1520029418 h:\saba\include\saba\model\mmd\mmdmorph.h
+	<string>
+
+1518830068 source:h:\myprojects\realcraft\stb\stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	<limits.h>
+	<crtdbg.h>
+
+1518830068 e:\myprojects\realcraft\stb\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1520029418 e:\saba\include\saba\model\mmd\pmdmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/mat4x4.hpp>
+	<vector>
+	<string>
+	<algorithm>
+
+1520029418 e:\saba\include\saba\model\mmd\mmdmaterial.h
+	<string>
+	<cstdint>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle.hpp
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle_func.hpp
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4_simd.inl
+
+1520029418 e:\saba\include\saba\model\mmd\mmdmodel.h
+	"MMDNode.h"
+	"MMDIkSolver.h"
+	"MMDMorph.h"
+	<vector>
+	<string>
+	<algorithm>
+	<cstdint>
+	<memory>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+
+1520029418 e:\saba\include\saba\model\mmd\mmdnode.h
+	<string>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/mat4x4.hpp>
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4_simd.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational_simd.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\simd\exponential.h
+	"platform.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\simd\common.h
+	"platform.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\simd\geometric.h
+	"common.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\simd\matrix.h
+	"geometric.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\constants.inl
+	<limits>
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric_simd.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion_simd.inl
+
+1520029418 e:\saba\include\saba\model\mmd\mmdiksolver.h
+	"MMDNode.h"
+	<vector>
+	<string>
+	<glm/vec3.hpp>
+
+1520029418 e:\saba\include\saba\model\mmd\mmdmorph.h
+	<string>
+
+1518830068 source:e:\myprojects\realcraft\stb\stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	<limits.h>
+	<crtdbg.h>
+
+1521118784 e:\myprojects\realcraft\client\render\mmdrenderer.hpp
+	"BaseRenderer.hpp"
+	"Textures.hpp"
+	<Saba\Model\MMD\MMDModel.h>
+
+1521118640 e:\myprojects\realcraft\client\render\baserenderer.hpp
+
+1520029418 source:e:\myprojects\realcraft\external\gl3w\src\gl3w.c
+	<GL/gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1520029418 e:\myprojects\realcraft\external\gl3w\include\gl\gl3w.h
+	<GL/glcorearb.h>
+
+1520029418 e:\myprojects\realcraft\external\gl3w\include\gl\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1520029418 source:h:\myprojects\realcraft\external\gl3w\src\gl3w.c
+	<GL/gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1520029418 h:\myprojects\realcraft\external\gl3w\include\gl\gl3w.h
+	<GL/glcorearb.h>
+
+1520029418 h:\myprojects\realcraft\external\gl3w\include\gl\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1521118784 h:\myprojects\realcraft\client\render\mmdrenderer.hpp
+	"BaseRenderer.hpp"
+	"Textures.hpp"
+	<Saba\Model\MMD\MMDModel.h>
+
+1521118640 h:\myprojects\realcraft\client\render\baserenderer.hpp
+
+1520029418 source:i:\myprojects\realcraft\external\gl3w\src\gl3w.c
+	<GL/gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1520029418 i:\myprojects\realcraft\external\gl3w\include\gl\gl3w.h
+	<GL/glcorearb.h>
+
+1520029418 i:\myprojects\realcraft\external\gl3w\include\gl\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1521122524 source:i:\myprojects\realcraft\main.cpp
+	"main.h"
+
+1520756138 i:\myprojects\realcraft\main.h
+	<windows.h>
+	<winuser.h>
+	<fstream>
+	<sstream>
+	"client/GameClient.hpp"
+
+1520755800 i:\myprojects\realcraft\client\gameclient.hpp
+	"render/GameRenderer.hpp"
+	"listener/KeyBoardListener.hpp"
+	"../entity/player/Player.hpp"
+	<math.h>
+
+1521347450 i:\myprojects\realcraft\client\render\gamerenderer.hpp
+	<glut.h>
+	"Textures.hpp"
+	<Saba\Model\MMD\PMDModel.h>
+	"MMDRenderer.hpp"
+
+903428686 i:\glutdlls37beta\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1521117508 i:\myprojects\realcraft\client\render\textures.hpp
+	<windows.h>
+	"../../stb/stb_image.h"
+
+1518830068 i:\myprojects\realcraft\stb\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1520029418 i:\saba\include\saba\model\mmd\pmdmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/mat4x4.hpp>
+	<vector>
+	<string>
+	<algorithm>
+
+1520029418 i:\saba\include\saba\model\mmd\mmdmaterial.h
+	<string>
+	<cstdint>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle.hpp
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle_func.hpp
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4_simd.inl
+
+1520029418 i:\saba\include\saba\model\mmd\mmdmodel.h
+	"MMDNode.h"
+	"MMDIkSolver.h"
+	"MMDMorph.h"
+	<vector>
+	<string>
+	<algorithm>
+	<cstdint>
+	<memory>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+
+1520029418 i:\saba\include\saba\model\mmd\mmdnode.h
+	<string>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/mat4x4.hpp>
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4_simd.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational_simd.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\simd\exponential.h
+	"platform.h"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\simd\common.h
+	"platform.h"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\simd\geometric.h
+	"common.h"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\simd\matrix.h
+	"geometric.h"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\gtc\constants.inl
+	<limits>
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric_simd.inl
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1520029418 i:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion_simd.inl
+
+1520029418 i:\saba\include\saba\model\mmd\mmdiksolver.h
+	"MMDNode.h"
+	<vector>
+	<string>
+	<glm/vec3.hpp>
+
+1520029418 i:\saba\include\saba\model\mmd\mmdmorph.h
+	<string>
+
+1521118784 i:\myprojects\realcraft\client\render\mmdrenderer.hpp
+	"BaseRenderer.hpp"
+	"Textures.hpp"
+	<Saba\Model\MMD\MMDModel.h>
+
+1521118640 i:\myprojects\realcraft\client\render\baserenderer.hpp
+
+1518253996 i:\myprojects\realcraft\client\listener\keyboardlistener.hpp
+	<vector>
+
+1518250388 i:\myprojects\realcraft\entity\player\player.hpp
+	"../Entity.hpp"
+
+1518250662 i:\myprojects\realcraft\entity\entity.hpp
+
+1518595576 source:i:\myprojects\realcraft\resource.rc
+
+1518830068 source:i:\myprojects\realcraft\stb\stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	<limits.h>
+	<crtdbg.h>
+
+1520029418 source:f:\myprojects\realcraft\external\gl3w\src\gl3w.c
+	<GL/gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1520029418 f:\myprojects\realcraft\external\gl3w\include\gl\gl3w.h
+	<GL/glcorearb.h>
+
+1520029418 f:\myprojects\realcraft\external\gl3w\include\gl\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1521118784 f:\myprojects\realcraft\client\render\mmdrenderer.hpp
+	"BaseRenderer.hpp"
+	"Textures.hpp"
+	<Saba\Model\MMD\MMDModel.h>
+
+1521118640 f:\myprojects\realcraft\client\render\baserenderer.hpp
+
+1501508782 e:\glew-2.1.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1520029418 source:d:\myprojects\realcraft\external\gl3w\src\gl3w.c
+	<GL/gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1520029418 d:\myprojects\realcraft\external\gl3w\include\gl\gl3w.h
+	<GL/glcorearb.h>
+
+1520029418 d:\myprojects\realcraft\external\gl3w\include\gl\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1525150532 source:d:\myprojects\realcraft\main.cpp
+	"main.h"
+	<GL/gl3w.h>
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"utils/Utils.h"
+
+1522595648 d:\myprojects\realcraft\main.h
+	<fstream>
+	<sstream>
+	<vector>
+	"client/GameClient.h"
+
+1522471104 d:\myprojects\realcraft\client\gameclient.hpp
+	"render/GameRenderer.hpp"
+	"listener/KeyBoardListener.hpp"
+	"../entity/player/Player.hpp"
+	<math.h>
+	<time.h>
+
+1522479212 d:\myprojects\realcraft\client\render\gamerenderer.hpp
+	<GL/gl3w.h>
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/mat4x4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/constants.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"Textures.hpp"
+	"Light.hpp"
+	<Saba/Model/MMD/PMDModel.h>
+	<Saba/Model/MMD/PMXModel.h>
+	"MMDRenderer.hpp"
+
+1522389364 d:\myprojects\realcraft\client\listener\keyboardlistener.hpp
+	<vector>
+
+1518250388 d:\myprojects\realcraft\entity\player\player.hpp
+	"../Entity.hpp"
+
+1518250662 d:\myprojects\realcraft\entity\entity.hpp
+
+1524373216 source:d:\myprojects\realcraft\resource.rc
+
+1518830068 source:d:\myprojects\realcraft\stb\stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	<limits.h>
+	<crtdbg.h>
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle.hpp
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\_swizzle_func.hpp
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec4_simd.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4_simd.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational_simd.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\simd\exponential.h
+	"platform.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\simd\common.h
+	"platform.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\simd\geometric.h
+	"common.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\simd\matrix.h
+	"geometric.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric_simd.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\type_half.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_packing_simd.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\simd\integer.h
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\constants.inl
+	<limits>
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\quaternion_simd.inl
+
+1520029418 d:\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1522474494 d:\myprojects\realcraft\client\render\textures.hpp
+	<windows.h>
+	"../../stb/stb_image.h"
+
+1518830068 d:\myprojects\realcraft\stb\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1520029418 d:\saba\include\saba\model\mmd\pmdmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/mat4x4.hpp>
+	<vector>
+	<string>
+	<algorithm>
+
+1520029418 d:\saba\include\saba\model\mmd\mmdmaterial.h
+	<string>
+	<cstdint>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1520029418 d:\saba\include\saba\model\mmd\mmdmodel.h
+	"MMDNode.h"
+	"MMDIkSolver.h"
+	"MMDMorph.h"
+	<vector>
+	<string>
+	<algorithm>
+	<cstdint>
+	<memory>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+
+1520029418 d:\saba\include\saba\model\mmd\mmdnode.h
+	<string>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/mat4x4.hpp>
+
+1520029418 d:\saba\include\saba\model\mmd\mmdiksolver.h
+	"MMDNode.h"
+	<vector>
+	<string>
+	<glm/vec3.hpp>
+
+1520029418 d:\saba\include\saba\model\mmd\mmdmorph.h
+	<string>
+
+1522478694 d:\myprojects\realcraft\client\render\mmdrenderer.hpp
+	"BaseRenderer.hpp"
+	"Textures.hpp"
+	<Saba\Model\MMD\MMDModel.h>
+
+1521118640 d:\myprojects\realcraft\client\render\baserenderer.hpp
+
+1522399748 d:\myprojects\realcraft\client\render\light.hpp
+
+1520029418 d:\saba\include\saba\model\mmd\pmxmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	"MMDIkSolver.h"
+	"PMXFile.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<vector>
+	<string>
+	<algorithm>
+	<future>
+
+1520029418 d:\saba\include\saba\model\mmd\pmxfile.h
+	"MMDFileString.h"
+	<cstdint>
+	<string>
+	<vector>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/quaternion.hpp>
+
+1520029418 d:\saba\include\saba\model\mmd\mmdfilestring.h
+	<Saba/Base/UnicodeUtil.h>
+	<Saba/Base/File.h>
+	"SjisToUnicode.h"
+	<string>
+
+1520029418 d:\saba\include\saba\base\unicodeutil.h
+	<string>
+	<array>
+
+1520029418 d:\saba\include\saba\base\file.h
+	<cstdio>
+	<vector>
+	<cstdint>
+	<string>
+
+1520029418 d:\saba\include\saba\model\mmd\sjistounicode.h
+	<string>
+
+1525167880 d:\myprojects\realcraft\client\gameclient.h
+	<windows.h>
+	<winuser.h>
+	<time.h>
+
+1523538218 d:\myprojects\realcraft\client\render\gamerenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+	"WorldRenderer.h"
+
+1522485702 d:\myprojects\realcraft\client\listener\keyboardlistener.h
+	<vector>
+
+1523798596 d:\myprojects\realcraft\entity\player\player.h
+	"../Entity.h"
+
+1522488410 source:d:\myprojects\realcraft\block\block.cpp
+	"Block.h"
+
+1522488934 d:\myprojects\realcraft\block\block.h
+	<string>
+
+1522639646 d:\myprojects\realcraft\client\render\textures.h
+	<windows.h>
+
+1522489500 d:\myprojects\realcraft\client\render\light.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/mat4x4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/constants.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1522561712 d:\myprojects\realcraft\client\render\mmdrenderer.h
+	"BaseRenderer.h"
+	"Textures.h"
+	"Light.h"
+	<Saba\Model\MMD\MMDModel.h>
+	<Saba/Model/MMD/PMDModel.h>
+	<Saba/Model/MMD/PMXModel.h>
+
+1522489022 source:d:\myprojects\realcraft\client\listener\keyboardlistener.cpp
+	"KeyBoardListener.h"
+	<string.h>
+
+1522561928 d:\myprojects\realcraft\client\render\baserenderer.h
+	"RendererContext.h"
+
+1523799294 d:\myprojects\realcraft\entity\entity.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec2.hpp>
+
+1525167880 source:d:\myprojects\realcraft\client\gameclient.cpp
+	"GameClient.h"
+	"gui/gui.h"
+	"../entity/player/Player.h"
+	"../world/GameWorld.h"
+	"render/GameRenderer.h"
+	<math.h>
+	<stdlib.h>
+	"../utils/Utils.h"
+	"gui/screen/BaseScreen.h"
+	"gui/screen/PlayScreen.h"
+	"../substance/BaseSubstance.h"
+
+1522485898 source:d:\myprojects\realcraft\client\render\light.cpp
+	"Light.h"
+
+1524473776 source:d:\myprojects\realcraft\client\render\gamerenderer.cpp
+	"GameRenderer.h"
+	"../../utils/Utils.h"
+	"../gui/gui.h"
+
+1522584816 d:\myprojects\realcraft\utils\utils.h
+	<windows.h>
+	<winuser.h>
+	<fstream>
+	<sstream>
+	<vector>
+
+1525183016 source:d:\myprojects\realcraft\client\render\textures.cpp
+	"Textures.h"
+	<GL/gl3w.h>
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"../../utils/Utils.h"
+	"../../stb/stb_image.h"
+
+1525183936 source:d:\myprojects\realcraft\client\render\mmdrenderer.cpp
+	"MMDRenderer.h"
+
+1523799294 source:d:\myprojects\realcraft\entity\entity.cpp
+	"Entity.h"
+
+1523798596 source:d:\myprojects\realcraft\entity\player\player.cpp
+	"Player.h"
+
+1522831174 source:d:\myprojects\realcraft\utils\utils.cpp
+	"Utils.h"
+
+1522581758 source:d:\myprojects\realcraft\granule\granule.cpp
+	"Granule.h"
+
+1522581792 d:\myprojects\realcraft\granule\granule.h
+	<glm/vec3.hpp>
+	<string>
+
+1522509114 d:\myprojects\realcraft\client\render\renderercontext.h
+	<GL/gl3w.h>
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"Light.h"
+	<string>
+
+1525184080 source:d:\myprojects\realcraft\world\gameworld.cpp
+	"GameWorld.h"
+	"../entity/player/Player.h"
+	"../object/Ground.h"
+	"../utils/Utils.h"
+	"chunk/BaseChunk.h"
+	"generation/WorldGenerator.h"
+
+1525175366 d:\myprojects\realcraft\world\gameworld.h
+	<vector>
+
+1522561800 source:d:\myprojects\realcraft\client\render\baserenderer.cpp
+	"BaseRenderer.h"
+
+1522509172 source:d:\myprojects\realcraft\client\render\renderercontext.cpp
+	"RendererContext.h"
+	"../../utils/Utils.h"
+
+1525183028 source:d:\myprojects\realcraft\client\render\worldrenderer.cpp
+	"WorldRenderer.h"
+	"../GameClient.h"
+	"../../entity/player/Player.h"
+	"../../world/GameWorld.h"
+	"../../world/chunk/BaseChunk.h"
+	"../../object/BaseObject.h"
+	"../../utils/Utils.h"
+	<math.h>
+
+1524983628 d:\myprojects\realcraft\client\render\worldrenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+
+1522638254 source:d:\myprojects\realcraft\client\gui\basescreen.cpp
+	"BaseScreen.h"
+	"../GameClient.h"
+
+1522628936 source:d:\myprojects\realcraft\client\gui\guielement.cpp
+	"GuiElement.h"
+
+1522627276 d:\myprojects\realcraft\client\gui\guielement.h
+
+1522628856 d:\myprojects\realcraft\client\gui\basescreen.h
+	"GuiElement.h"
+	<vector>
+
+1524995224 d:\myprojects\realcraft\client\gui\gui.h
+	<stack>
+	<map>
+	<string>
+	<glm/vec4.hpp>
+	<ft2build.h>
+
+1524995226 source:d:\myprojects\realcraft\client\gui\gui.cpp
+	"gui.h"
+	"../GameClient.h"
+	"screen/BaseScreen.h"
+	"screen/PlayScreen.h"
+	"screen/GamePlayScreen.h"
+	"screen/PauseScreen.h"
+	"../render/RendererContext.h"
+	"../../utils/Utils.h"
+
+1525961108 source:h:\myprojects\realcraft\client\gameclient.cpp
+	"GameClient.h"
+	"gui/gui.h"
+	"../entity/player/Player.h"
+	"../world/GameWorld.h"
+	"render/GameRenderer.h"
+	"../utils/Utils.h"
+	"gui/screen/BaseScreen.h"
+	"gui/screen/PlayScreen.h"
+	"../block/Block.h"
+	<math.h>
+	<stdlib.h>
+
+1525167880 h:\myprojects\realcraft\client\gameclient.h
+	<windows.h>
+	<winuser.h>
+	<time.h>
+
+1524995224 h:\myprojects\realcraft\client\gui\gui.h
+	<stack>
+	<map>
+	<string>
+	<glm/vec4.hpp>
+	<ft2build.h>
+
+1523172740 h:\myprojects\realcraft\client\listener\keyboardlistener.h
+	<vector>
+
+1522932446 h:\myprojects\realcraft\granule\granule.h
+	<glm/vec4.hpp>
+	<string>
+
+1525357094 h:\myprojects\realcraft\entity\player\player.h
+	"../Entity.h"
+
+1525357094 h:\myprojects\realcraft\entity\entity.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec2.hpp>
+
+1525860102 h:\myprojects\realcraft\world\gameworld.h
+	<vector>
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\type_half.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_packing_simd.inl
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\simd\integer.h
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1520029418 h:\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1523538218 h:\myprojects\realcraft\client\render\gamerenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+	"WorldRenderer.h"
+
+1526119462 h:\myprojects\realcraft\client\render\renderercontext.h
+	"GL/gl3w.h"
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"Light.h"
+	<string>
+
+1522489500 h:\myprojects\realcraft\client\render\light.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/mat4x4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/constants.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1522639646 h:\myprojects\realcraft\client\render\textures.h
+	<windows.h>
+
+1525686320 h:\myprojects\realcraft\client\render\worldrenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+
+1522561928 h:\myprojects\realcraft\client\render\baserenderer.h
+	"RendererContext.h"
+
+1522561712 h:\myprojects\realcraft\client\render\mmdrenderer.h
+	"BaseRenderer.h"
+	"Textures.h"
+	"Light.h"
+	<Saba\Model\MMD\MMDModel.h>
+	<Saba/Model/MMD/PMDModel.h>
+	<Saba/Model/MMD/PMXModel.h>
+
+1520029418 h:\saba\include\saba\model\mmd\pmxmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	"MMDIkSolver.h"
+	"PMXFile.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<vector>
+	<string>
+	<algorithm>
+	<future>
+
+1520029418 h:\saba\include\saba\model\mmd\pmxfile.h
+	"MMDFileString.h"
+	<cstdint>
+	<string>
+	<vector>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/quaternion.hpp>
+
+1520029418 h:\saba\include\saba\model\mmd\mmdfilestring.h
+	<Saba/Base/UnicodeUtil.h>
+	<Saba/Base/File.h>
+	"SjisToUnicode.h"
+	<string>
+
+1520029418 h:\saba\include\saba\base\unicodeutil.h
+	<string>
+	<array>
+
+1520029418 h:\saba\include\saba\base\file.h
+	<cstdio>
+	<vector>
+	<cstdint>
+	<string>
+
+1520029418 h:\saba\include\saba\model\mmd\sjistounicode.h
+	<string>
+
+1525356528 h:\myprojects\realcraft\utils\utils.h
+	<windows.h>
+	<winuser.h>
+	<fstream>
+	<sstream>
+	<vector>
+
+1522628856 h:\myprojects\realcraft\client\gui\basescreen.h
+	"GuiElement.h"
+	<vector>
+
+1522627276 h:\myprojects\realcraft\client\gui\guielement.h
+
+1522638254 source:h:\myprojects\realcraft\client\gui\basescreen.cpp
+	"BaseScreen.h"
+	"../GameClient.h"
+
+1524995226 source:h:\myprojects\realcraft\client\gui\gui.cpp
+	"gui.h"
+	"../GameClient.h"
+	"screen/BaseScreen.h"
+	"screen/PlayScreen.h"
+	"screen/GamePlayScreen.h"
+	"screen/PauseScreen.h"
+	"../render/RendererContext.h"
+	"../../utils/Utils.h"
+
+1522628936 source:h:\myprojects\realcraft\client\gui\guielement.cpp
+	"GuiElement.h"
+
+1523172740 source:h:\myprojects\realcraft\client\listener\keyboardlistener.cpp
+	"KeyBoardListener.h"
+	<string.h>
+
+1522561800 source:h:\myprojects\realcraft\client\render\baserenderer.cpp
+	"BaseRenderer.h"
+
+1525961108 source:h:\myprojects\realcraft\client\render\gamerenderer.cpp
+	"GameRenderer.h"
+	"../../utils/Utils.h"
+	"../gui/gui.h"
+
+1522485898 source:h:\myprojects\realcraft\client\render\light.cpp
+	"Light.h"
+
+1525183936 source:h:\myprojects\realcraft\client\render\mmdrenderer.cpp
+	"MMDRenderer.h"
+
+1522509172 source:h:\myprojects\realcraft\client\render\renderercontext.cpp
+	"RendererContext.h"
+	"../../utils/Utils.h"
+
+1525183016 source:h:\myprojects\realcraft\client\render\textures.cpp
+	"Textures.h"
+	<GL/gl3w.h>
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"../../utils/Utils.h"
+	"../../stb/stb_image.h"
+
+1525961886 source:h:\myprojects\realcraft\client\render\worldrenderer.cpp
+	"WorldRenderer.h"
+	"../GameClient.h"
+	"../../entity/player/Player.h"
+	"../../world/GameWorld.h"
+	"../../world/chunk/BaseChunk.h"
+	"../../utils/Utils.h"
+	"../../block/blockshape/BlockShape.h"
+	"../../block/Block.h"
+	<math.h>
+
+1525961300 source:h:\myprojects\realcraft\entity\entity.cpp
+	"Entity.h"
+
+1523798596 source:h:\myprojects\realcraft\entity\player\player.cpp
+	"Player.h"
+
+1522933004 source:h:\myprojects\realcraft\granule\granule.cpp
+	"Granule.h"
+
+1522831174 source:h:\myprojects\realcraft\utils\utils.cpp
+	"Utils.h"
+
+1525860164 source:h:\myprojects\realcraft\world\gameworld.cpp
+	"GameWorld.h"
+	"../entity/player/Player.h"
+	"../utils/Utils.h"
+	"chunk/BaseChunk.h"
+	"generation/WorldGenerator.h"
+
+1525961108 source:f:\myprojects\realcraft\client\gameclient.cpp
+	"GameClient.h"
+	"gui/gui.h"
+	"../entity/player/Player.h"
+	"../world/GameWorld.h"
+	"render/GameRenderer.h"
+	"../utils/Utils.h"
+	"gui/screen/BaseScreen.h"
+	"gui/screen/PlayScreen.h"
+	"../block/Block.h"
+	<math.h>
+	<stdlib.h>
+
+1525167880 f:\myprojects\realcraft\client\gameclient.h
+	<windows.h>
+	<winuser.h>
+	<time.h>
+
+1524995224 f:\myprojects\realcraft\client\gui\gui.h
+	<stack>
+	<map>
+	<string>
+	<glm/vec4.hpp>
+	<ft2build.h>
+
+1523172740 f:\myprojects\realcraft\client\listener\keyboardlistener.h
+	<vector>
+
+1522932446 f:\myprojects\realcraft\granule\granule.h
+	<glm/vec4.hpp>
+	<string>
+
+1525357094 f:\myprojects\realcraft\entity\player\player.h
+	"../Entity.h"
+
+1525357094 f:\myprojects\realcraft\entity\entity.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec2.hpp>
+
+1525860102 f:\myprojects\realcraft\world\gameworld.h
+	<vector>
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\type_half.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_packing_simd.inl
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\simd\integer.h
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1520029418 f:\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1523538218 f:\myprojects\realcraft\client\render\gamerenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+	"WorldRenderer.h"
+
+1526119462 f:\myprojects\realcraft\client\render\renderercontext.h
+	"GL/gl3w.h"
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"Light.h"
+	<string>
+
+1522489500 f:\myprojects\realcraft\client\render\light.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/mat4x4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/constants.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1522639646 f:\myprojects\realcraft\client\render\textures.h
+	<windows.h>
+
+1525686320 f:\myprojects\realcraft\client\render\worldrenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+
+1522561928 f:\myprojects\realcraft\client\render\baserenderer.h
+	"RendererContext.h"
+
+1522561712 f:\myprojects\realcraft\client\render\mmdrenderer.h
+	"BaseRenderer.h"
+	"Textures.h"
+	"Light.h"
+	<Saba\Model\MMD\MMDModel.h>
+	<Saba/Model/MMD/PMDModel.h>
+	<Saba/Model/MMD/PMXModel.h>
+
+1525356528 f:\myprojects\realcraft\utils\utils.h
+	<windows.h>
+	<winuser.h>
+	<fstream>
+	<sstream>
+	<vector>
+
+1522628856 f:\myprojects\realcraft\client\gui\basescreen.h
+	"GuiElement.h"
+	<vector>
+
+1522627276 f:\myprojects\realcraft\client\gui\guielement.h
+
+1522638254 source:f:\myprojects\realcraft\client\gui\basescreen.cpp
+	"BaseScreen.h"
+	"../GameClient.h"
+
+1524995226 source:f:\myprojects\realcraft\client\gui\gui.cpp
+	"gui.h"
+	"../GameClient.h"
+	"screen/BaseScreen.h"
+	"screen/PlayScreen.h"
+	"screen/GamePlayScreen.h"
+	"screen/PauseScreen.h"
+	"../render/RendererContext.h"
+	"../../utils/Utils.h"
+
+1522628936 source:f:\myprojects\realcraft\client\gui\guielement.cpp
+	"GuiElement.h"
+
+1523172740 source:f:\myprojects\realcraft\client\listener\keyboardlistener.cpp
+	"KeyBoardListener.h"
+	<string.h>
+
+1522561800 source:f:\myprojects\realcraft\client\render\baserenderer.cpp
+	"BaseRenderer.h"
+
+1522485898 source:f:\myprojects\realcraft\client\render\light.cpp
+	"Light.h"
+
+1525183936 source:f:\myprojects\realcraft\client\render\mmdrenderer.cpp
+	"MMDRenderer.h"
+
+1522509172 source:f:\myprojects\realcraft\client\render\renderercontext.cpp
+	"RendererContext.h"
+	"../../utils/Utils.h"
+
+1525183016 source:f:\myprojects\realcraft\client\render\textures.cpp
+	"Textures.h"
+	<GL/gl3w.h>
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"../../utils/Utils.h"
+	"../../stb/stb_image.h"
+
+1526201402 source:f:\myprojects\realcraft\client\render\worldrenderer.cpp
+	"WorldRenderer.h"
+	"../GameClient.h"
+	"../../entity/player/Player.h"
+	"../../world/GameWorld.h"
+	"../../world/chunk/BaseChunk.h"
+	"../../utils/Utils.h"
+	"../../block/blockshape/BlockShape.h"
+	"../../block/Block.h"
+	"VaoManager.h"
+	<math.h>
+
+1525961300 source:f:\myprojects\realcraft\entity\entity.cpp
+	"Entity.h"
+
+1523798596 source:f:\myprojects\realcraft\entity\player\player.cpp
+	"Player.h"
+
+1522933004 source:f:\myprojects\realcraft\granule\granule.cpp
+	"Granule.h"
+
+1522831174 source:f:\myprojects\realcraft\utils\utils.cpp
+	"Utils.h"
+
+1526201402 source:f:\myprojects\realcraft\world\gameworld.cpp
+	"GameWorld.h"
+	"../entity/player/Player.h"
+	"../utils/Utils.h"
+	"chunk/BaseChunk.h"
+	"generation/WorldGenerator.h"
+
+1525961108 source:f:\myprojects\realcraft\client\render\gamerenderer.cpp
+	"GameRenderer.h"
+	"../../utils/Utils.h"
+	"../gui/gui.h"
+
+1525961108 source:e:\myprojects\realcraft\client\gameclient.cpp
+	"GameClient.h"
+	"gui/gui.h"
+	"../entity/player/Player.h"
+	"../world/GameWorld.h"
+	"render/GameRenderer.h"
+	"../utils/Utils.h"
+	"gui/screen/BaseScreen.h"
+	"gui/screen/PlayScreen.h"
+	"../block/Block.h"
+	<math.h>
+	<stdlib.h>
+
+1525167880 e:\myprojects\realcraft\client\gameclient.h
+	<windows.h>
+	<winuser.h>
+	<time.h>
+
+1524995224 e:\myprojects\realcraft\client\gui\gui.h
+	<stack>
+	<map>
+	<string>
+	<glm/vec4.hpp>
+	<ft2build.h>
+
+1523172740 e:\myprojects\realcraft\client\listener\keyboardlistener.h
+	<vector>
+
+1522932446 e:\myprojects\realcraft\granule\granule.h
+	<glm/vec4.hpp>
+	<string>
+
+1525357094 e:\myprojects\realcraft\entity\player\player.h
+	"../Entity.h"
+
+1525357094 e:\myprojects\realcraft\entity\entity.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec2.hpp>
+
+1525860102 e:\myprojects\realcraft\world\gameworld.h
+	<vector>
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\type_half.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_packing_simd.inl
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\simd\integer.h
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1520029418 e:\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1523538218 e:\myprojects\realcraft\client\render\gamerenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+	"WorldRenderer.h"
+
+1526119462 e:\myprojects\realcraft\client\render\renderercontext.h
+	"GL/gl3w.h"
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"Light.h"
+	<string>
+
+1522489500 e:\myprojects\realcraft\client\render\light.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/mat4x4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/constants.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1522639646 e:\myprojects\realcraft\client\render\textures.h
+	<windows.h>
+
+1525686320 e:\myprojects\realcraft\client\render\worldrenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+
+1522561928 e:\myprojects\realcraft\client\render\baserenderer.h
+	"RendererContext.h"
+
+1522561712 e:\myprojects\realcraft\client\render\mmdrenderer.h
+	"BaseRenderer.h"
+	"Textures.h"
+	"Light.h"
+	<Saba\Model\MMD\MMDModel.h>
+	<Saba/Model/MMD/PMDModel.h>
+	<Saba/Model/MMD/PMXModel.h>
+
+1520029418 e:\saba\include\saba\model\mmd\pmxmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	"MMDIkSolver.h"
+	"PMXFile.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<vector>
+	<string>
+	<algorithm>
+	<future>
+
+1520029418 e:\saba\include\saba\model\mmd\pmxfile.h
+	"MMDFileString.h"
+	<cstdint>
+	<string>
+	<vector>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/quaternion.hpp>
+
+1520029418 e:\saba\include\saba\model\mmd\mmdfilestring.h
+	<Saba/Base/UnicodeUtil.h>
+	<Saba/Base/File.h>
+	"SjisToUnicode.h"
+	<string>
+
+1520029418 e:\saba\include\saba\base\unicodeutil.h
+	<string>
+	<array>
+
+1520029418 e:\saba\include\saba\base\file.h
+	<cstdio>
+	<vector>
+	<cstdint>
+	<string>
+
+1520029418 e:\saba\include\saba\model\mmd\sjistounicode.h
+	<string>
+
+1525356528 e:\myprojects\realcraft\utils\utils.h
+	<windows.h>
+	<winuser.h>
+	<fstream>
+	<sstream>
+	<vector>
+
+1522628856 e:\myprojects\realcraft\client\gui\basescreen.h
+	"GuiElement.h"
+	<vector>
+
+1522627276 e:\myprojects\realcraft\client\gui\guielement.h
+
+1524995226 source:e:\myprojects\realcraft\client\gui\gui.cpp
+	"gui.h"
+	"../GameClient.h"
+	"screen/BaseScreen.h"
+	"screen/PlayScreen.h"
+	"screen/GamePlayScreen.h"
+	"screen/PauseScreen.h"
+	"../render/RendererContext.h"
+	"../../utils/Utils.h"
+
+1522628936 source:e:\myprojects\realcraft\client\gui\guielement.cpp
+	"GuiElement.h"
+
+1523172740 source:e:\myprojects\realcraft\client\listener\keyboardlistener.cpp
+	"KeyBoardListener.h"
+	<string.h>
+
+1522561800 source:e:\myprojects\realcraft\client\render\baserenderer.cpp
+	"BaseRenderer.h"
+
+1522485898 source:e:\myprojects\realcraft\client\render\light.cpp
+	"Light.h"
+
+1522509172 source:e:\myprojects\realcraft\client\render\renderercontext.cpp
+	"RendererContext.h"
+	"../../utils/Utils.h"
+
+1525183016 source:e:\myprojects\realcraft\client\render\textures.cpp
+	"Textures.h"
+	<GL/gl3w.h>
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"../../utils/Utils.h"
+	"../../stb/stb_image.h"
+
+1526216468 source:e:\myprojects\realcraft\client\render\worldrenderer.cpp
+	"WorldRenderer.h"
+	"../GameClient.h"
+	"../../entity/player/Player.h"
+	"../../world/GameWorld.h"
+	"../../world/chunk/BaseChunk.h"
+	"../../utils/Utils.h"
+	"../../block/blockshape/BlockShape.h"
+	"../../block/Block.h"
+	"ObjectGroup.h"
+	<math.h>
+
+1525961300 source:e:\myprojects\realcraft\entity\entity.cpp
+	"Entity.h"
+
+1523798596 source:e:\myprojects\realcraft\entity\player\player.cpp
+	"Player.h"
+
+1522933004 source:e:\myprojects\realcraft\granule\granule.cpp
+	"Granule.h"
+
+1522831174 source:e:\myprojects\realcraft\utils\utils.cpp
+	"Utils.h"
+
+1526201402 source:e:\myprojects\realcraft\world\gameworld.cpp
+	"GameWorld.h"
+	"../entity/player/Player.h"
+	"../utils/Utils.h"
+	"chunk/BaseChunk.h"
+	"generation/WorldGenerator.h"
+
+1522927854 source:e:\myprojects\realcraft\client\gui\basescreen.cpp
+	"BaseScreen.h"
+	"../GameClient.h"
+
+1525183936 source:e:\myprojects\realcraft\client\render\mmdrenderer.cpp
+	"MMDRenderer.h"
+
+1525961108 source:e:\myprojects\realcraft\client\render\gamerenderer.cpp
+	"GameRenderer.h"
+	"../../utils/Utils.h"
+	"../gui/gui.h"
+
+1524387942 e:\myprojects\realcraft\client\gui\screen\basescreen.h
+	"../guiElement/GuiElement.h"
+	<glm/vec4.hpp>
+	<vector>
+
+1524401372 e:\myprojects\realcraft\client\gui\guielement\guielement.h
+
+1523779676 source:e:\myprojects\realcraft\client\gui\guielement\guielement.cpp
+	"GuiElement.h"
+	"../gui.h"
+	"../screen/BaseScreen.h"
+	"../../GameClient.h"
+	"../../../utils/Utils.h"
+
+1525090172 source:e:\myprojects\realcraft\client\gui\screen\basescreen.cpp
+	"BaseScreen.h"
+	"../../GameClient.h"
+	"../gui.h"
+	"../../../utils/Utils.h"
+	"../guiElement/GuiElement.h"
+
+1525167986 source:e:\myprojects\realcraft\client\gui\screen\playscreen.cpp
+	"PlayScreen.h"
+	"../gui.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../world/GameWorld.h"
+	"../../../world/generation/WorldGenerator.h"
+	"../../../world/chunk/BaseChunk.h"
+	"../../../utils/Utils.h"
+	"../../render/RendererContext.h"
+	<thread>
+
+1524406676 source:e:\myprojects\realcraft\client\gui\guielement\tbutton.cpp
+	"TButton.h"
+	"../screen/BaseScreen.h"
+	"../gui.h"
+	"../../../utils/UTILS.H"
+
+1523779640 e:\myprojects\realcraft\client\gui\guielement\tbutton.h
+	<string>
+	"GuiElement.h"
+	<glm/vec4.hpp>
+	<glm/vec2.hpp>
+
+1524387146 e:\myprojects\realcraft\client\gui\screen\playscreen.h
+	"BaseScreen.h"
+
+1524387942 h:\myprojects\realcraft\client\gui\screen\basescreen.h
+	"../guiElement/GuiElement.h"
+	<glm/vec4.hpp>
+	<vector>
+
+1524401372 h:\myprojects\realcraft\client\gui\guielement\guielement.h
+
+1524387146 h:\myprojects\realcraft\client\gui\screen\playscreen.h
+	"BaseScreen.h"
+
+1523779676 source:h:\myprojects\realcraft\client\gui\guielement\guielement.cpp
+	"GuiElement.h"
+	"../gui.h"
+	"../screen/BaseScreen.h"
+	"../../GameClient.h"
+	"../../../utils/Utils.h"
+
+1524406676 source:h:\myprojects\realcraft\client\gui\guielement\tbutton.cpp
+	"TButton.h"
+	"../screen/BaseScreen.h"
+	"../gui.h"
+	"../../../utils/UTILS.H"
+
+1523779640 h:\myprojects\realcraft\client\gui\guielement\tbutton.h
+	<string>
+	"GuiElement.h"
+	<glm/vec4.hpp>
+	<glm/vec2.hpp>
+
+1525090172 source:h:\myprojects\realcraft\client\gui\screen\basescreen.cpp
+	"BaseScreen.h"
+	"../../GameClient.h"
+	"../gui.h"
+	"../../../utils/Utils.h"
+	"../guiElement/GuiElement.h"
+
+1525167986 source:h:\myprojects\realcraft\client\gui\screen\playscreen.cpp
+	"PlayScreen.h"
+	"../gui.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../world/GameWorld.h"
+	"../../../world/generation/WorldGenerator.h"
+	"../../../world/chunk/BaseChunk.h"
+	"../../../utils/Utils.h"
+	"../../render/RendererContext.h"
+	<thread>
+
+1524387942 f:\myprojects\realcraft\client\gui\screen\basescreen.h
+	"../guiElement/GuiElement.h"
+	<glm/vec4.hpp>
+	<vector>
+
+1524401372 f:\myprojects\realcraft\client\gui\guielement\guielement.h
+
+1524387146 f:\myprojects\realcraft\client\gui\screen\playscreen.h
+	"BaseScreen.h"
+
+1523779676 source:f:\myprojects\realcraft\client\gui\guielement\guielement.cpp
+	"GuiElement.h"
+	"../gui.h"
+	"../screen/BaseScreen.h"
+	"../../GameClient.h"
+	"../../../utils/Utils.h"
+
+1524406676 source:f:\myprojects\realcraft\client\gui\guielement\tbutton.cpp
+	"TButton.h"
+	"../screen/BaseScreen.h"
+	"../gui.h"
+	"../../../utils/UTILS.H"
+
+1523779640 f:\myprojects\realcraft\client\gui\guielement\tbutton.h
+	<string>
+	"GuiElement.h"
+	<glm/vec4.hpp>
+	<glm/vec2.hpp>
+
+1525090172 source:f:\myprojects\realcraft\client\gui\screen\basescreen.cpp
+	"BaseScreen.h"
+	"../../GameClient.h"
+	"../gui.h"
+	"../../../utils/Utils.h"
+	"../guiElement/GuiElement.h"
+
+1525167986 source:f:\myprojects\realcraft\client\gui\screen\playscreen.cpp
+	"PlayScreen.h"
+	"../gui.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../world/GameWorld.h"
+	"../../../world/generation/WorldGenerator.h"
+	"../../../world/chunk/BaseChunk.h"
+	"../../../utils/Utils.h"
+	"../../render/RendererContext.h"
+	<thread>
+
+1519681794 f:\freetype\include\ft2build.h
+	<freetype/config/ftheader.h>
+
+1519681794 f:\freetype\include\freetype\config\ftheader.h
+
+1519681794 e:\freetype\include\ft2build.h
+	<freetype/config/ftheader.h>
+
+1519681794 e:\freetype\include\freetype\config\ftheader.h
+
+1519681794 h:\freetype\include\ft2build.h
+	<freetype/config/ftheader.h>
+
+1519681794 h:\freetype\include\freetype\config\ftheader.h
+
+1524308018 f:\myprojects\realcraft\client\gui\screen\gameplayscreen.h
+	"BaseScreen.h"
+	<map>
+
+1526201018 source:f:\myprojects\realcraft\client\gui\screen\gameplayscreen.cpp
+	"GamePlayScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../../../entity/player/Player.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+	"../../../world/chunk/BaseChunk.h"
+	<cstdlib>
+
+1524308018 e:\myprojects\realcraft\client\gui\screen\gameplayscreen.h
+	"BaseScreen.h"
+	<map>
+
+1526201018 source:e:\myprojects\realcraft\client\gui\screen\gameplayscreen.cpp
+	"GamePlayScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../../../entity/player/Player.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+	"../../../world/chunk/BaseChunk.h"
+	<cstdlib>
+
+1524308018 h:\myprojects\realcraft\client\gui\screen\gameplayscreen.h
+	"BaseScreen.h"
+	<map>
+
+1525683352 source:h:\myprojects\realcraft\client\gui\screen\gameplayscreen.cpp
+	"GamePlayScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../../../entity/player/Player.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+	"../../../world/chunk/BaseChunk.h"
+	<cstdlib>
+
+1525088250 source:f:\myprojects\realcraft\client\gui\screen\pausescreen.cpp
+	"PauseScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+
+1524387036 f:\myprojects\realcraft\client\gui\screen\pausescreen.h
+	"BaseScreen.h"
+
+1524387036 e:\myprojects\realcraft\client\gui\screen\pausescreen.h
+	"BaseScreen.h"
+
+1525088250 source:e:\myprojects\realcraft\client\gui\screen\pausescreen.cpp
+	"PauseScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+
+1524387036 h:\myprojects\realcraft\client\gui\screen\pausescreen.h
+	"BaseScreen.h"
+
+1525088250 source:h:\myprojects\realcraft\client\gui\screen\pausescreen.cpp
+	"PauseScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+
+1525356052 source:h:\myprojects\realcraft\substance\basesubstance.cpp
+	"BaseSubstance.h"
+	"Dirt.h"
+	"Stone.h"
+	<string.h>
+
+1524991402 h:\myprojects\realcraft\substance\basesubstance.h
+	<glm/vec4.hpp>
+	<vector>
+	<string>
+
+1519681794 d:\freetype\include\ft2build.h
+	<freetype/config/ftheader.h>
+
+1519681794 d:\freetype\include\freetype\config\ftheader.h
+
+1524387942 d:\myprojects\realcraft\client\gui\screen\basescreen.h
+	"../guiElement/GuiElement.h"
+	<glm/vec4.hpp>
+	<vector>
+
+1524401372 d:\myprojects\realcraft\client\gui\guielement\guielement.h
+
+1524387146 d:\myprojects\realcraft\client\gui\screen\playscreen.h
+	"BaseScreen.h"
+
+1524308018 d:\myprojects\realcraft\client\gui\screen\gameplayscreen.h
+	"BaseScreen.h"
+	<map>
+
+1524387036 d:\myprojects\realcraft\client\gui\screen\pausescreen.h
+	"BaseScreen.h"
+
+1523779676 source:d:\myprojects\realcraft\client\gui\guielement\guielement.cpp
+	"GuiElement.h"
+	"../gui.h"
+	"../screen/BaseScreen.h"
+	"../../GameClient.h"
+	"../../../utils/Utils.h"
+
+1524406676 source:d:\myprojects\realcraft\client\gui\guielement\tbutton.cpp
+	"TButton.h"
+	"../screen/BaseScreen.h"
+	"../gui.h"
+	"../../../utils/UTILS.H"
+
+1523779640 d:\myprojects\realcraft\client\gui\guielement\tbutton.h
+	<string>
+	"GuiElement.h"
+	<glm/vec4.hpp>
+	<glm/vec2.hpp>
+
+1525090172 source:d:\myprojects\realcraft\client\gui\screen\basescreen.cpp
+	"BaseScreen.h"
+	"../../GameClient.h"
+	"../gui.h"
+	"../../../utils/Utils.h"
+	"../guiElement/GuiElement.h"
+
+1525088250 source:d:\myprojects\realcraft\client\gui\screen\pausescreen.cpp
+	"PauseScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+
+1525167986 source:d:\myprojects\realcraft\client\gui\screen\playscreen.cpp
+	"PlayScreen.h"
+	"../gui.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../world/GameWorld.h"
+	"../../../world/generation/WorldGenerator.h"
+	"../../../world/chunk/BaseChunk.h"
+	"../../../utils/Utils.h"
+	"../../render/RendererContext.h"
+	<thread>
+
+1525066308 source:d:\myprojects\realcraft\substance\basesubstance.cpp
+	"BaseSubstance.h"
+	"Dirt.h"
+	<string.h>
+
+1524991402 d:\myprojects\realcraft\substance\basesubstance.h
+	<glm/vec4.hpp>
+	<vector>
+	<string>
+
+1525221840 source:d:\myprojects\realcraft\client\gui\screen\gameplayscreen.cpp
+	"GamePlayScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../../../entity/player/Player.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+	"../../../world/chunk/BaseChunk.h"
+	<cstdlib>
+
+1525228184 source:d:\myprojects\realcraft\object\baseobject.cpp
+	"BaseObject.h"
+	"../client/render/RendererContext.h"
+	"../substance/BaseSubstance.h"
+	"piece/BasePiece.h"
+	<math.h>
+	"../utils/Utils.h"
+
+1525225662 d:\myprojects\realcraft\object\baseobject.h
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<vector>
+	<string>
+
+1525227876 source:d:\myprojects\realcraft\object\ground.cpp
+	"Ground.h"
+	"../utils/utils.h"
+	"../utils/NoiseGenerator.h"
+	"piece/BasePiece.h"
+	<time.h>
+
+1524911878 d:\myprojects\realcraft\object\ground.h
+	"BaseObject.h"
+
+1524990432 source:d:\myprojects\realcraft\substance\dirt.cpp
+	"Dirt.h"
+
+1524989194 d:\myprojects\realcraft\substance\dirt.h
+	"BaseSubstance.h"
+
+1525185040 source:d:\myprojects\realcraft\utils\noisegenerator.cpp
+	"NoiseGenerator.h"
+	<cmath>
+
+1525080670 d:\myprojects\realcraft\utils\noisegenerator.h
+
+1525171978 source:d:\myprojects\realcraft\world\chunk\basechunk.cpp
+	"BaseChunk.h"
+	"../../object/BaseObject.h"
+
+1525164404 d:\myprojects\realcraft\world\chunk\basechunk.h
+	<vector>
+	<glm/vec3.hpp>
+
+1525164384 d:\myprojects\realcraft\world\generation\worldgenerator.h
+
+1525229620 source:d:\myprojects\realcraft\world\generation\worldgenerator.cpp
+	"WorldGenerator.h"
+	"../GameWorld.h"
+	"../chunk/BaseChunk.h"
+	"../../object/piece/BasePiece.h"
+	"../../utils/NoiseGenerator.h"
+	"../../object/Ground.h"
+
+1525226012 source:d:\myprojects\realcraft\object\piece\basepiece.cpp
+	"BasePiece.h"
+	<string.h>
+
+1525225842 d:\myprojects\realcraft\object\piece\basepiece.h
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1524991402 e:\myprojects\realcraft\substance\basesubstance.h
+	<glm/vec4.hpp>
+	<vector>
+	<string>
+
+1526218430 e:\myprojects\realcraft\world\chunk\basechunk.h
+	<map>
+	<vector>
+	<glm/vec3.hpp>
+	"../../utils/VecUtils.h"
+	"../../block/Block.h"
+
+1525164384 e:\myprojects\realcraft\world\generation\worldgenerator.h
+
+1525353426 e:\myprojects\realcraft\object\baseobject.h
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<vector>
+	<string>
+
+1525354844 source:e:\myprojects\realcraft\object\baseobject.cpp
+	"BaseObject.h"
+	"../client/render/RendererContext.h"
+	"../substance/BaseSubstance.h"
+	"piece/BasePiece.h"
+	<math.h>
+	"../utils/Utils.h"
+
+1525353428 e:\myprojects\realcraft\object\piece\basepiece.h
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1525353428 source:e:\myprojects\realcraft\object\piece\basepiece.cpp
+	"BasePiece.h"
+	<string.h>
+
+1525356052 source:e:\myprojects\realcraft\substance\basesubstance.cpp
+	"BaseSubstance.h"
+	"Dirt.h"
+	"Stone.h"
+	<string.h>
+
+1524989194 e:\myprojects\realcraft\substance\dirt.h
+	"BaseSubstance.h"
+
+1525355290 source:e:\myprojects\realcraft\substance\dirt.cpp
+	"Dirt.h"
+
+1525185040 source:e:\myprojects\realcraft\utils\noisegenerator.cpp
+	"NoiseGenerator.h"
+	<cmath>
+
+1525080670 e:\myprojects\realcraft\utils\noisegenerator.h
+
+1526220488 source:e:\myprojects\realcraft\world\chunk\basechunk.cpp
+	"BaseChunk.h"
+	"../../client/render/ObjectGroup.h"
+	<glm/vec3.hpp>
+
+1525357194 e:\myprojects\realcraft\object\ground.h
+	"BaseObject.h"
+
+1525353426 source:e:\myprojects\realcraft\object\ground.cpp
+	"Ground.h"
+	"../utils/utils.h"
+	"../utils/NoiseGenerator.h"
+	"piece/BasePiece.h"
+	<time.h>
+
+1525860028 source:e:\myprojects\realcraft\world\generation\worldgenerator.cpp
+	"WorldGenerator.h"
+	"../GameWorld.h"
+	"../chunk/BaseChunk.h"
+	"../../utils/NoiseGenerator.h"
+
+1525356052 source:e:\myprojects\realcraft\substance\stone.cpp
+	"Stone.h"
+
+1525355290 e:\myprojects\realcraft\substance\stone.h
+	"BaseSubstance.h"
+
+1526188842 h:\myprojects\realcraft\world\chunk\basechunk.h
+	<map>
+	<vector>
+	<glm/vec3.hpp>
+	"../../utils/VecUtils.h"
+	"../../block/Block.h"
+
+1525164384 h:\myprojects\realcraft\world\generation\worldgenerator.h
+
+1525582872 h:\myprojects\realcraft\object\baseobject.h
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<vector>
+	<queue>
+	<string>
+
+1525583388 source:h:\myprojects\realcraft\object\baseobject.cpp
+	"BaseObject.h"
+	"../client/render/RendererContext.h"
+	"../substance/BaseSubstance.h"
+	"piece/BasePiece.h"
+	<math.h>
+	"../utils/Utils.h"
+
+1525581316 h:\myprojects\realcraft\object\piece\basepiece.h
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1525353426 source:h:\myprojects\realcraft\object\ground.cpp
+	"Ground.h"
+	"../utils/utils.h"
+	"../utils/NoiseGenerator.h"
+	"piece/BasePiece.h"
+	<time.h>
+
+1525357194 h:\myprojects\realcraft\object\ground.h
+	"BaseObject.h"
+
+1525080670 h:\myprojects\realcraft\utils\noisegenerator.h
+
+1525581310 source:h:\myprojects\realcraft\object\piece\basepiece.cpp
+	"BasePiece.h"
+	<string.h>
+
+1524989194 h:\myprojects\realcraft\substance\dirt.h
+	"BaseSubstance.h"
+
+1525355290 h:\myprojects\realcraft\substance\stone.h
+	"BaseSubstance.h"
+
+1525355290 source:h:\myprojects\realcraft\substance\dirt.cpp
+	"Dirt.h"
+
+1525356052 source:h:\myprojects\realcraft\substance\stone.cpp
+	"Stone.h"
+
+1525185040 source:h:\myprojects\realcraft\utils\noisegenerator.cpp
+	"NoiseGenerator.h"
+	<cmath>
+
+1525952536 source:h:\myprojects\realcraft\world\chunk\basechunk.cpp
+	"BaseChunk.h"
+	"../../block/Block.h"
+
+1525860028 source:h:\myprojects\realcraft\world\generation\worldgenerator.cpp
+	"WorldGenerator.h"
+	"../GameWorld.h"
+	"../chunk/BaseChunk.h"
+	"../../utils/NoiseGenerator.h"
+
+1524991402 f:\myprojects\realcraft\substance\basesubstance.h
+	<glm/vec4.hpp>
+	<vector>
+	<string>
+
+1526197172 f:\myprojects\realcraft\world\chunk\basechunk.h
+	<map>
+	<vector>
+	<glm/vec3.hpp>
+	"../../utils/VecUtils.h"
+	"../../block/Block.h"
+
+1525164384 f:\myprojects\realcraft\world\generation\worldgenerator.h
+
+1525593826 f:\myprojects\realcraft\object\baseobject.h
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<vector>
+	<queue>
+	<string>
+
+1525593826 source:f:\myprojects\realcraft\object\baseobject.cpp
+	"BaseObject.h"
+	"../client/render/RendererContext.h"
+	"../substance/BaseSubstance.h"
+	"piece/BasePiece.h"
+	<math.h>
+	"../utils/Utils.h"
+
+1525594928 f:\myprojects\realcraft\object\piece\basepiece.h
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1525594846 source:f:\myprojects\realcraft\object\ground.cpp
+	"Ground.h"
+	"../utils/utils.h"
+	"../utils/NoiseGenerator.h"
+	"piece/BasePiece.h"
+	<time.h>
+
+1525357194 f:\myprojects\realcraft\object\ground.h
+	"BaseObject.h"
+
+1525080670 f:\myprojects\realcraft\utils\noisegenerator.h
+
+1525595144 source:f:\myprojects\realcraft\object\piece\basepiece.cpp
+	"BasePiece.h"
+	"../../client/render/RendererContext.h"
+	"../../substance/BaseSubstance.h"
+	<string.h>
+
+1525356052 source:f:\myprojects\realcraft\substance\basesubstance.cpp
+	"BaseSubstance.h"
+	"Dirt.h"
+	"Stone.h"
+	<string.h>
+
+1524989194 f:\myprojects\realcraft\substance\dirt.h
+	"BaseSubstance.h"
+
+1525355290 f:\myprojects\realcraft\substance\stone.h
+	"BaseSubstance.h"
+
+1525355290 source:f:\myprojects\realcraft\substance\dirt.cpp
+	"Dirt.h"
+
+1525356052 source:f:\myprojects\realcraft\substance\stone.cpp
+	"Stone.h"
+
+1525185040 source:f:\myprojects\realcraft\utils\noisegenerator.cpp
+	"NoiseGenerator.h"
+	<cmath>
+
+1526201486 source:f:\myprojects\realcraft\world\chunk\basechunk.cpp
+	"BaseChunk.h"
+	"../../client/render/VaoManager.h"
+
+1525860028 source:f:\myprojects\realcraft\world\generation\worldgenerator.cpp
+	"WorldGenerator.h"
+	"../GameWorld.h"
+	"../chunk/BaseChunk.h"
+	"../../utils/NoiseGenerator.h"
+
+1525682796 source:f:\myprojects\realcraft\block\block.cpp
+	"Block.h"
+	"Dirt.h"
+
+1525860028 f:\myprojects\realcraft\block\block.h
+	<string>
+	<vector>
+
+1525860844 source:e:\myprojects\realcraft\block\blockshape\blockshape.cpp
+	"BlockShape.h"
+	"../../client/render/RendererContext.h"
+
+1525683620 e:\myprojects\realcraft\block\blockshape\blockshape.h
+
+1525682796 source:e:\myprojects\realcraft\block\block.cpp
+	"Block.h"
+	"Dirt.h"
+
+1525860028 e:\myprojects\realcraft\block\block.h
+	<string>
+	<vector>
+
+1525860844 source:f:\myprojects\realcraft\block\blockshape\blockshape.cpp
+	"BlockShape.h"
+	"../../client/render/RendererContext.h"
+
+1525683620 f:\myprojects\realcraft\block\blockshape\blockshape.h
+
+1525616448 source:f:\myprojects\realcraft\block\dirt.cpp
+	"Dirt.h"
+
+1525616302 f:\myprojects\realcraft\block\dirt.h
+	"Block.h"
+
+1525682796 source:h:\myprojects\realcraft\block\block.cpp
+	"Block.h"
+	"Dirt.h"
+
+1525860028 h:\myprojects\realcraft\block\block.h
+	<string>
+	<vector>
+
+1525616302 h:\myprojects\realcraft\block\dirt.h
+	"Block.h"
+
+1525860844 source:h:\myprojects\realcraft\block\blockshape\blockshape.cpp
+	"BlockShape.h"
+	"../../client/render/RendererContext.h"
+
+1525683620 h:\myprojects\realcraft\block\blockshape\blockshape.h
+
+1525616448 source:h:\myprojects\realcraft\block\dirt.cpp
+	"Dirt.h"
+
+1525616302 e:\myprojects\realcraft\block\dirt.h
+	"Block.h"
+
+1525616448 source:e:\myprojects\realcraft\block\dirt.cpp
+	"Dirt.h"
+
+1525952502 e:\myprojects\realcraft\utils\vecutils.h
+	<glm/vec3.hpp>
+
+1525952468 source:e:\myprojects\realcraft\utils\vecutils.cpp
+	"VecUtils.h"
+
+1525959498 e:\myprojects\realcraft\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	"../KHR/khrplatform.h"
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1525936556 e:\myprojects\realcraft\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1525959528 source:e:\myprojects\realcraft\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glad/glad.h"
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1525959498 h:\myprojects\realcraft\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	"../KHR/khrplatform.h"
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1525936556 h:\myprojects\realcraft\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1525952502 h:\myprojects\realcraft\utils\vecutils.h
+	<glm/vec3.hpp>
+
+1525959528 source:h:\myprojects\realcraft\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glad/glad.h"
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1525952468 source:h:\myprojects\realcraft\utils\vecutils.cpp
+	"VecUtils.h"
+
+1525952502 f:\myprojects\realcraft\utils\vecutils.h
+	<glm/vec3.hpp>
+
+1525959528 source:f:\myprojects\realcraft\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glad/glad.h"
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1525959498 f:\myprojects\realcraft\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	"../KHR/khrplatform.h"
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1525936556 f:\myprojects\realcraft\khr\khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1525952468 source:f:\myprojects\realcraft\utils\vecutils.cpp
+	"VecUtils.h"
+
+1526200734 source:f:\myprojects\realcraft\client\render\vaomanager.cpp
+	"VaoManager.h"
+	"RendererContext.h"
+
+1526197462 f:\myprojects\realcraft\client\render\vaomanager.h
+
+1526220468 source:e:\myprojects\realcraft\client\render\objectgroup.cpp
+	"ObjectGroup.h"
+	"RendererContext.h"
+	"../../utils/Utils.h"
+
+1526221106 e:\myprojects\realcraft\client\render\objectgroup.h
+	<stddef.h>
+	<vector>
+	<glm/mat4x4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/vec3.hpp>
+
+1525682796 source:c:\workspace\myprojects\realcraft\block\block.cpp
+	"Block.h"
+	"Dirt.h"
+
+1525860028 c:\workspace\myprojects\realcraft\block\block.h
+	<string>
+	<vector>
+
+1525616302 c:\workspace\myprojects\realcraft\block\dirt.h
+	"Block.h"
+
+1525860844 source:c:\workspace\myprojects\realcraft\block\blockshape\blockshape.cpp
+	"BlockShape.h"
+	"../../client/render/RendererContext.h"
+
+1525683620 c:\workspace\myprojects\realcraft\block\blockshape\blockshape.h
+
+1526119462 c:\workspace\myprojects\realcraft\client\render\renderercontext.h
+	"GL/gl3w.h"
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"Light.h"
+	<string>
+
+1520029418 c:\workspace\myprojects\realcraft\external\gl3w\include\gl\gl3w.h
+	<GL/glcorearb.h>
+
+1520029418 c:\workspace\myprojects\realcraft\external\gl3w\include\gl\glcorearb.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1522489500 c:\workspace\myprojects\realcraft\client\render\light.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/mat4x4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/constants.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\_swizzle.hpp
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\_swizzle_func.hpp
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec2.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec3.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec4_simd.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x3.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat2x4.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x2.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat3x4.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x2.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x3.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_mat4x4_simd.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_vec1.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_vector_relational_simd.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\simd\exponential.h
+	"platform.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\simd\common.h
+	"platform.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\simd\geometric.h
+	"common.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\simd\matrix.h
+	"geometric.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_trigonometric_simd.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\type_half.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_packing_simd.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\simd\integer.h
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\constants.inl
+	<limits>
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\quaternion_simd.inl
+
+1520029418 c:\workspace\myprojects\realcraft\external\glm\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1525616448 source:c:\workspace\myprojects\realcraft\block\dirt.cpp
+	"Dirt.h"
+
+1525961108 source:c:\workspace\myprojects\realcraft\client\gameclient.cpp
+	"GameClient.h"
+	"gui/gui.h"
+	"../entity/player/Player.h"
+	"../world/GameWorld.h"
+	"render/GameRenderer.h"
+	"../utils/Utils.h"
+	"gui/screen/BaseScreen.h"
+	"gui/screen/PlayScreen.h"
+	"../block/Block.h"
+	<math.h>
+	<stdlib.h>
+
+1528120730 c:\workspace\myprojects\realcraft\client\gameclient.h
+	<windows.h>
+	<winuser.h>
+	<time.h>
+
+1524995224 c:\workspace\myprojects\realcraft\client\gui\gui.h
+	<stack>
+	<map>
+	<string>
+	<glm/vec4.hpp>
+	<ft2build.h>
+
+1528120440 c:\workspace\freetype\include\ft2build.h
+	<freetype/config/ftheader.h>
+
+1528120442 c:\workspace\freetype\include\freetype\config\ftheader.h
+
+1525357094 c:\workspace\myprojects\realcraft\entity\player\player.h
+	"../Entity.h"
+
+1525357094 c:\workspace\myprojects\realcraft\entity\entity.h
+	<glm/glm.hpp>
+	<glm/vec3.hpp>
+	<glm/vec2.hpp>
+
+1525860102 c:\workspace\myprojects\realcraft\world\gameworld.h
+	<vector>
+
+1523538218 c:\workspace\myprojects\realcraft\client\render\gamerenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+	"WorldRenderer.h"
+
+1522639646 c:\workspace\myprojects\realcraft\client\render\textures.h
+	<windows.h>
+
+1525686320 c:\workspace\myprojects\realcraft\client\render\worldrenderer.h
+	"../GameClient.h"
+	"RendererContext.h"
+	"Textures.h"
+
+1525356528 c:\workspace\myprojects\realcraft\utils\utils.h
+	<windows.h>
+	<winuser.h>
+	<fstream>
+	<sstream>
+	<vector>
+
+1524387942 c:\workspace\myprojects\realcraft\client\gui\screen\basescreen.h
+	"../guiElement/GuiElement.h"
+	<glm/vec4.hpp>
+	<vector>
+
+1524401372 c:\workspace\myprojects\realcraft\client\gui\guielement\guielement.h
+
+1524387146 c:\workspace\myprojects\realcraft\client\gui\screen\playscreen.h
+	"BaseScreen.h"
+
+1524995226 source:c:\workspace\myprojects\realcraft\client\gui\gui.cpp
+	"gui.h"
+	"../GameClient.h"
+	"screen/BaseScreen.h"
+	"screen/PlayScreen.h"
+	"screen/GamePlayScreen.h"
+	"screen/PauseScreen.h"
+	"../render/RendererContext.h"
+	"../../utils/Utils.h"
+
+1524308018 c:\workspace\myprojects\realcraft\client\gui\screen\gameplayscreen.h
+	"BaseScreen.h"
+	<map>
+
+1524387036 c:\workspace\myprojects\realcraft\client\gui\screen\pausescreen.h
+	"BaseScreen.h"
+
+1523779676 source:c:\workspace\myprojects\realcraft\client\gui\guielement\guielement.cpp
+	"GuiElement.h"
+	"../gui.h"
+	"../screen/BaseScreen.h"
+	"../../GameClient.h"
+	"../../../utils/Utils.h"
+
+1524406676 source:c:\workspace\myprojects\realcraft\client\gui\guielement\tbutton.cpp
+	"TButton.h"
+	"../screen/BaseScreen.h"
+	"../gui.h"
+	"../../../utils/UTILS.H"
+
+1523779640 c:\workspace\myprojects\realcraft\client\gui\guielement\tbutton.h
+	<string>
+	"GuiElement.h"
+	<glm/vec4.hpp>
+	<glm/vec2.hpp>
+
+1525090172 source:c:\workspace\myprojects\realcraft\client\gui\screen\basescreen.cpp
+	"BaseScreen.h"
+	"../../GameClient.h"
+	"../gui.h"
+	"../../../utils/Utils.h"
+	"../guiElement/GuiElement.h"
+
+1526201018 source:c:\workspace\myprojects\realcraft\client\gui\screen\gameplayscreen.cpp
+	"GamePlayScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../../../entity/player/Player.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+	"../../../world/chunk/BaseChunk.h"
+	<cstdlib>
+
+1526218430 c:\workspace\myprojects\realcraft\world\chunk\basechunk.h
+	<map>
+	<vector>
+	<glm/vec3.hpp>
+	"../../utils/VecUtils.h"
+	"../../block/Block.h"
+
+1525952502 c:\workspace\myprojects\realcraft\utils\vecutils.h
+	<glm/vec3.hpp>
+
+1525088250 source:c:\workspace\myprojects\realcraft\client\gui\screen\pausescreen.cpp
+	"PauseScreen.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../utils/Utils.h"
+	"../gui.h"
+	"../../../world/GameWorld.h"
+
+1525167986 source:c:\workspace\myprojects\realcraft\client\gui\screen\playscreen.cpp
+	"PlayScreen.h"
+	"../gui.h"
+	"../../GameClient.h"
+	"../guiElement/TButton.h"
+	"../../../world/GameWorld.h"
+	"../../../world/generation/WorldGenerator.h"
+	"../../../world/chunk/BaseChunk.h"
+	"../../../utils/Utils.h"
+	"../../render/RendererContext.h"
+	<thread>
+
+1525164384 c:\workspace\myprojects\realcraft\world\generation\worldgenerator.h
+
+1522561800 source:c:\workspace\myprojects\realcraft\client\render\baserenderer.cpp
+	"BaseRenderer.h"
+
+1522561928 c:\workspace\myprojects\realcraft\client\render\baserenderer.h
+	"RendererContext.h"
+
+1525961108 source:c:\workspace\myprojects\realcraft\client\render\gamerenderer.cpp
+	"GameRenderer.h"
+	"../../utils/Utils.h"
+	"../gui/gui.h"
+
+1522485898 source:c:\workspace\myprojects\realcraft\client\render\light.cpp
+	"Light.h"
+
+1525183936 source:c:\workspace\myprojects\realcraft\client\render\mmdrenderer.cpp
+	"MMDRenderer.h"
+
+1522561712 c:\workspace\myprojects\realcraft\client\render\mmdrenderer.h
+	"BaseRenderer.h"
+	"Textures.h"
+	"Light.h"
+	<Saba\Model\MMD\MMDModel.h>
+	<Saba/Model/MMD/PMDModel.h>
+	<Saba/Model/MMD/PMXModel.h>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\mmdmodel.h
+	"MMDNode.h"
+	"MMDIkSolver.h"
+	"MMDMorph.h"
+	<vector>
+	<string>
+	<algorithm>
+	<cstdint>
+	<memory>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\mmdnode.h
+	<string>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/mat4x4.hpp>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\mmdiksolver.h
+	"MMDNode.h"
+	<vector>
+	<string>
+	<glm/vec3.hpp>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\mmdmorph.h
+	<string>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\pmdmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/mat4x4.hpp>
+	<vector>
+	<string>
+	<algorithm>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\mmdmaterial.h
+	<string>
+	<cstdint>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\pmxmodel.h
+	"MMDMaterial.h"
+	"MMDModel.h"
+	"MMDIkSolver.h"
+	"PMXFile.h"
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/gtc/quaternion.hpp>
+	<vector>
+	<string>
+	<algorithm>
+	<future>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\pmxfile.h
+	"MMDFileString.h"
+	<cstdint>
+	<string>
+	<vector>
+	<glm/vec2.hpp>
+	<glm/vec3.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/quaternion.hpp>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\mmdfilestring.h
+	<Saba/Base/UnicodeUtil.h>
+	<Saba/Base/File.h>
+	"SjisToUnicode.h"
+	<string>
+
+1518830068 c:\workspace\saba\include\saba\base\unicodeutil.h
+	<string>
+	<array>
+
+1518830068 c:\workspace\saba\include\saba\base\file.h
+	<cstdio>
+	<vector>
+	<cstdint>
+	<string>
+
+1518830068 c:\workspace\saba\include\saba\model\mmd\sjistounicode.h
+	<string>
+
+1528125851 source:c:\workspace\myprojects\realcraft\client\render\objectgroup.cpp
+	"ObjectGroup.h"
+	"RendererContext.h"
+	"../../utils/Utils.h"
+
+1528125825 c:\workspace\myprojects\realcraft\client\render\objectgroup.h
+	<stddef.h>
+	<vector>
+	<glm/mat4x4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/vec3.hpp>
+
+1522509172 source:c:\workspace\myprojects\realcraft\client\render\renderercontext.cpp
+	"RendererContext.h"
+	"../../utils/Utils.h"
+
+1525183016 source:c:\workspace\myprojects\realcraft\client\render\textures.cpp
+	"Textures.h"
+	<GL/gl3w.h>
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"../../utils/Utils.h"
+	"../../stb/stb_image.h"
+
+1518830068 c:\workspace\myprojects\realcraft\stb\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1526216468 source:c:\workspace\myprojects\realcraft\client\render\worldrenderer.cpp
+	"WorldRenderer.h"
+	"../GameClient.h"
+	"../../entity/player/Player.h"
+	"../../world/GameWorld.h"
+	"../../world/chunk/BaseChunk.h"
+	"../../utils/Utils.h"
+	"../../block/blockshape/BlockShape.h"
+	"../../block/Block.h"
+	"ObjectGroup.h"
+	<math.h>
+
+1525961300 source:c:\workspace\myprojects\realcraft\entity\entity.cpp
+	"Entity.h"
+
+1523798596 source:c:\workspace\myprojects\realcraft\entity\player\player.cpp
+	"Player.h"
+
+1520029418 source:c:\workspace\myprojects\realcraft\external\gl3w\src\gl3w.c
+	<GL/gl3w.h>
+	<windows.h>
+	<Carbon/Carbon.h>
+	<dlfcn.h>
+	<GL/glx.h>
+
+1526119462 source:c:\workspace\myprojects\realcraft\main.cpp
+	"main.h"
+	"GL/gl3w.h"
+	<GL/wglext.h>
+	<Gl/gl.h>
+	<GL/glext.h>
+	"utils/Utils.h"
+
+1528120730 c:\workspace\myprojects\realcraft\main.h
+	<fstream>
+	<sstream>
+	<vector>
+	"client/GameClient.h"
+
+1524373216 source:c:\workspace\myprojects\realcraft\resource.rc
+
+1518830068 source:c:\workspace\myprojects\realcraft\stb\stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	<limits.h>
+	<crtdbg.h>
+
+1525185040 source:c:\workspace\myprojects\realcraft\utils\noisegenerator.cpp
+	"NoiseGenerator.h"
+	<cmath>
+
+1525080670 c:\workspace\myprojects\realcraft\utils\noisegenerator.h
+
+1522831174 source:c:\workspace\myprojects\realcraft\utils\utils.cpp
+	"Utils.h"
+
+1525952468 source:c:\workspace\myprojects\realcraft\utils\vecutils.cpp
+	"VecUtils.h"
+
+1526220488 source:c:\workspace\myprojects\realcraft\world\chunk\basechunk.cpp
+	"BaseChunk.h"
+	"../../client/render/ObjectGroup.h"
+	<glm/vec3.hpp>
+
+1526201402 source:c:\workspace\myprojects\realcraft\world\gameworld.cpp
+	"GameWorld.h"
+	"../entity/player/Player.h"
+	"../utils/Utils.h"
+	"chunk/BaseChunk.h"
+	"generation/WorldGenerator.h"
+
+1525860028 source:c:\workspace\myprojects\realcraft\world\generation\worldgenerator.cpp
+	"WorldGenerator.h"
+	"../GameWorld.h"
+	"../chunk/BaseChunk.h"
+	"../../utils/NoiseGenerator.h"
+
