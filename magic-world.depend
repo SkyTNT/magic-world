@@ -6644,3 +6644,16 @@
 	"../chunk/BaseChunk.h"
 	"../../utils/NoiseGenerator.h"
 
+1528182192 source:c:\workspace\magic-world\client\gameclient.cpp
+	"GameClient.h"
+	"gui/gui.h"
+	"../entity/player/Player.h"
+	"../world/GameWorld.h"
+	"render/GameRenderer.h"
+	"../utils/Utils.h"
+	"gui/screen/BaseScreen.h"
+	"gui/screen/PlayScreen.h"
+	"../block/Block.h"
+	<math.h>
+	<stdlib.h>
+

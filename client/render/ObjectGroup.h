@@ -1,9 +1,12 @@
 #pragma once
 #include <stddef.h>
 #include <vector>
+#include <map>
 #include <glm/mat4x4.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/vec3.hpp>
+
+typedef int BufferID;
 
 class ObjectGroup{
 public:
@@ -15,11 +18,10 @@ public:
     ~ObjectGroup();
     void init();
     Buffer allocateBuffer(size_t vertexCount);
-    void addVertexBuffer(void* buff,size_t vertexCount);
-    void translate(glm::vec3 pos);
-    void resize(size_t vertexCount);
+    int writeBuffer(Buffer traget,void* buff,size_t vertexCount);
+    int translate(Buffer traget,glm::vec3 pos);
+    int newCapacity(size_t vertexCount);
 //private:
-    size_t mSize;
-    glm::mat4 model;
-    unsigned int mCapacity,objCount;
+    std::map<BufferID,Buffer>mBuffers;
+    unsigned int mCapacity;
 };
