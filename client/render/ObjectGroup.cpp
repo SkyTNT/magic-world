@@ -1,8 +1,9 @@
 #include "ObjectGroup.h"
 #include "RendererContext.h"
+#include "Texture.h"
 #include "../../utils/Utils.h"
 
-#define STEP_LONG 6*sizeof(float)
+#define STEP_LONG 8*sizeof(float)
 
 ObjectGroup::ObjectGroup()
 {
@@ -68,6 +69,24 @@ int ObjectGroup::translate(Buffer target,glm::vec3 pos)
     return 0;
 }
 
+int ObjectGroup::useTexture(Buffer target,Texture* tex)
+{
+    glBindBuffer(GL_ARRAY_BUFFER, vbo);
+    void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
+    if(vboptr==0)return -1;
+    for(int i=0;i<target.vertexCount;i++)
+    {
+        glm::vec2* uv=(glm::vec2*)(vboptr+(target.startVertex+i)*STEP_LONG+6*sizeof(float));
+        float width=tex->u2-tex->u1;
+        float heigh=tex->v2-tex->v1;
+        uv->s=tex->u1+width*uv->s;
+        uv->t=tex->v1+heigh*uv->t;
+    }
+    glUnmapBuffer(GL_ARRAY_BUFFER);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    return 0;
+}
+
 ObjectGroup::Buffer ObjectGroup::getBuffer(BufferID id)
 {
     auto it=mBuffers.find(id);
@@ -90,6 +109,8 @@ int ObjectGroup::newCapacity(size_t vertexCount)
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, STEP_LONG, (GLvoid*)(3 * sizeof(GLfloat)));
     glEnableVertexAttribArray(1);
+    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, STEP_LONG, (GLvoid*)(6 * sizeof(GLfloat)));
+    glEnableVertexAttribArray(2);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 
     glBindVertexArray(0);

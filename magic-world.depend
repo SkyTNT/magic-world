@@ -6657,11 +6657,13 @@
 	<math.h>
 	<stdlib.h>
 
-1525682796 source:g:\magic-world\block\block.cpp
+1528285180 source:g:\magic-world\block\block.cpp
 	"Block.h"
 	"Dirt.h"
+	"../client/render/Texture.h"
+	"../client/render/Textures.h"
 
-1525860028 g:\magic-world\block\block.h
+1528287854 g:\magic-world\block\block.h
 	<string>
 	<vector>
 
@@ -6674,11 +6676,12 @@
 
 1525683620 g:\magic-world\block\blockshape\blockshape.h
 
-1526119462 g:\magic-world\client\render\renderercontext.h
+1528285251 g:\magic-world\client\render\renderercontext.h
 	"GL/gl3w.h"
 	<GL/wglext.h>
 	<Gl/gl.h>
 	<GL/glext.h>
+	"Texture.h"
 	"Light.h"
 	<string>
 
@@ -7378,7 +7381,7 @@
 1522485898 source:g:\magic-world\client\render\light.cpp
 	"Light.h"
 
-1525183936 source:g:\magic-world\client\render\mmdrenderer.cpp
+1528277768 source:g:\magic-world\client\render\mmdrenderer.cpp
 	"MMDRenderer.h"
 
 1522561712 g:\magic-world\client\render\mmdrenderer.h
@@ -7569,7 +7572,7 @@
 	"../chunk/BaseChunk.h"
 	"../../utils/NoiseGenerator.h"
 
-1528271101 source:g:\magic-world\client\render\worldrenderer.cpp
+1528285174 source:g:\magic-world\client\render\worldrenderer.cpp
 	"WorldRenderer.h"
 	"../GameClient.h"
 	"../../entity/player/Player.h"
@@ -7581,23 +7584,30 @@
 	"ObjectGroup.h"
 	<math.h>
 
-1528265093 g:\magic-world\client\render\objectgroup.h
+1528287474 g:\magic-world\client\render\objectgroup.h
 	<stddef.h>
 	<vector>
 	<map>
 	<glm/mat4x4.hpp>
-	<glm/gtc/matrix_transform.hpp>
+	<glm/vec2.hpp>
 	<glm/vec3.hpp>
+	<glm/gtc/matrix_transform.hpp>
 
-1528270708 source:g:\magic-world\client\render\objectgroup.cpp
+1528287492 source:g:\magic-world\client\render\objectgroup.cpp
 	"ObjectGroup.h"
 	"RendererContext.h"
+	"Texture.h"
 	"../../utils/Utils.h"
 
 1528120442 g:\freetype\include\freetype\config\ftheader.h
 
-1528269940 source:g:\magic-world\world\chunk\basechunk.cpp
+1528287502 source:g:\magic-world\world\chunk\basechunk.cpp
 	"BaseChunk.h"
 	"../../client/render/ObjectGroup.h"
 	<glm/vec3.hpp>
+
+1528275281 source:g:\magic-world\client\render\texture.cpp
+	"Texture.h"
+
+1528275281 g:\magic-world\client\render\texture.h
 

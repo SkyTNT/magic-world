@@ -1,1 +1,1 @@
-assets\gold_ore.bmp load
+assets\blocktextures.png load

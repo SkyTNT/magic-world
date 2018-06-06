@@ -4,6 +4,7 @@
 #include <GL/wglext.h>
 #include <Gl/gl.h>
 #include <GL/glext.h>
+#include "Texture.h"
 #include "Light.h"
 #include <string>
 

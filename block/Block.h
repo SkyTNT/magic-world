@@ -9,6 +9,7 @@ int id,data;
 };
 
 class BlockShape;
+class Texture;
 
 class Block
 {
@@ -17,15 +18,15 @@ public:
     virtual ~Block();
 
     virtual bool isSolid();
-    virtual void getShape(int x,int y,int z,unsigned int data);
+    virtual BlockShape* getShape();
     virtual void init();
 
     static Block* mBlocks[1024];
     static void initBlocks();
+    static Texture* blockTextures;
 protected:
     std::string name;
     int id;
     bool msolid;
-    std::vector<BlockShape*>mShapes;
 };
 

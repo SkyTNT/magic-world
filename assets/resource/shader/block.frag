@@ -2,8 +2,9 @@
 
 in vec3 fragPos;
 in vec3 mNormal;
-in vec4 mColor;
+in vec2 mTexCoord;
 out vec4 color;
+uniform sampler2D mTexture;
 uniform vec3 lightColor;
 uniform vec3 lightPos;
 
@@ -20,5 +21,5 @@ void main()
 
     vec3 result = ambient + diffuse;
 
-    color = mColor*vec4(result,1.0);
+    color = texture(mTexture,mTexCoord)*vec4(result,1.0);
 }

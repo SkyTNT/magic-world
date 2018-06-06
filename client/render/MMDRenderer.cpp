@@ -93,11 +93,11 @@ void MMDRenderer::updateMMD(float dtime)
     if(!model)
         return;
 
-    //model->SaveBaseAnimation();//1
+    model->SaveBaseAnimation();//1
 
     model->BeginAnimation();
 
-    //model->LoadBaseAnimation();//2
+    model->LoadBaseAnimation();//2
 
     model->UpdateMorphAnimation();
 

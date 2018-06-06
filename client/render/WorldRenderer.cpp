@@ -34,7 +34,7 @@ WorldRenderer::~WorldRenderer()
 void WorldRenderer::init()
 {
 
-    mTextures->LoadTextureExt(0,"assets\\gold_ore.bmp");
+    //mTextures->LoadTextureExt(0,"assets\\gold_ore.bmp");
 
 
     GLuint cvs,cfs;
@@ -85,6 +85,9 @@ void WorldRenderer::render()
     glUniformMatrix4fv(glGetUniformLocation(blockShader, "proj"), 1, GL_FALSE, glm::value_ptr(context->proj));
     glUniform3fv(glGetUniformLocation(blockShader, "lightColor"), 1,glm::value_ptr(context->light0.color));
     glUniform3fv(glGetUniformLocation(blockShader, "lightPos"), 1,glm::value_ptr(context->light0.pos));
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D,Block::blockTextures->texid);
+    glUniform1i(glGetUniformLocation(blockShader, "mTexture"), 0);
     for(BaseChunk*mchunk:mWorld->mChunks)
     {
         glBindVertexArray(mchunk->objGroup->vao);
