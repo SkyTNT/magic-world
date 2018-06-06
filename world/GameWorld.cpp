@@ -28,7 +28,7 @@ void GameWorld::init(int _seed)
         for(unsigned int j=0; j<MAX_CHUNK; j++)
         {
             BaseChunk*mchunk=new BaseChunk();
-            mchunk->pos=glm::ivec3(j*CHUNK_SIZE,0,i*CHUNK_SIZE)+glm::ivec3(0,0,0);
+            mchunk->setPos(glm::ivec3(j*CHUNK_SIZE,0,i*CHUNK_SIZE)+glm::ivec3(0,0,0));
             worldgenerator->genChunk(mchunk);
             mChunks[i*MAX_CHUNK+j]=mchunk;
         }
@@ -52,7 +52,7 @@ void GameWorld::tick(float dtime)
                 if(j==MAX_CHUNK-1)
                 {
                     BaseChunk*newchunk=new BaseChunk();
-                    newchunk->pos=mChunks[i*MAX_CHUNK+j]->pos+glm::ivec3(CHUNK_SIZE,0,0);
+                    newchunk->setPos(mChunks[i*MAX_CHUNK+j]->pos+glm::ivec3(CHUNK_SIZE,0,0));
                     worldgenerator->genChunk(newchunk);
                     mChunks[i*MAX_CHUNK+j]=newchunk;
                     continue;
@@ -76,7 +76,7 @@ void GameWorld::tick(float dtime)
                 if(j==0)
                 {
                     BaseChunk*newchunk=new BaseChunk();
-                    newchunk->pos=mChunks[i*MAX_CHUNK+j]->pos+glm::ivec3(-CHUNK_SIZE,0,0);
+                    newchunk->setPos(mChunks[i*MAX_CHUNK+j]->pos+glm::ivec3(-CHUNK_SIZE,0,0));
                     worldgenerator->genChunk(newchunk);
                     mChunks[i*MAX_CHUNK+j]=newchunk;
                     continue;
@@ -101,7 +101,7 @@ void GameWorld::tick(float dtime)
                 if(i==MAX_CHUNK-1)
                 {
                     BaseChunk*newchunk=new BaseChunk();
-                    newchunk->pos=mChunks[i*MAX_CHUNK+j]->pos+glm::ivec3(0,0,CHUNK_SIZE);
+                    newchunk->setPos(mChunks[i*MAX_CHUNK+j]->pos+glm::ivec3(0,0,CHUNK_SIZE));
                     worldgenerator->genChunk(newchunk);
                     mChunks[i*MAX_CHUNK+j]=newchunk;
                     continue;
@@ -126,7 +126,7 @@ void GameWorld::tick(float dtime)
                 if(i==0)
                 {
                     BaseChunk*newchunk=new BaseChunk();
-                    newchunk->pos=mChunks[i*MAX_CHUNK+j]->pos+glm::ivec3(0,0,-CHUNK_SIZE);
+                    newchunk->setPos(mChunks[i*MAX_CHUNK+j]->pos+glm::ivec3(0,0,-CHUNK_SIZE));
                     worldgenerator->genChunk(newchunk);
                     mChunks[i*MAX_CHUNK+j]=newchunk;
                     continue;

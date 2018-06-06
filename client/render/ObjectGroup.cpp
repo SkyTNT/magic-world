@@ -6,8 +6,6 @@
 
 ObjectGroup::ObjectGroup()
 {
-    //glGenVertexArrays(1, &vao);
-    //glGenBuffers(1, &vbo);
     vao=0;
     vbo=0;
     mVertexCapacity=0;
@@ -24,28 +22,14 @@ ObjectGroup::~ObjectGroup()
 
 void ObjectGroup::init()
 {
-    /*glGenVertexArrays(1, &vao);
-    glGenBuffers(1, &vbo);
-    glBindVertexArray(vao);
-
-    glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    glBufferData(GL_ARRAY_BUFFER, 16*16*36*STEP_LONG,0 , GL_DYNAMIC_DRAW);
-
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, STEP_LONG, (GLvoid*)0);
-    glEnableVertexAttribArray(0);
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, STEP_LONG, (GLvoid*)(3 * sizeof(GLfloat)));
-    glEnableVertexAttribArray(1);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-    glBindVertexArray(0);*/
-    //newCapacity(16*16*36);
+newCapacity(16*16*36);
 }
 BufferID ObjectGroup::allocateBuffer(size_t vertexCount)
 {
     if(mVertexCount+vertexCount>mVertexCapacity)
     {
         int result=newCapacity(mVertexCount+vertexCount+16*16*36);
-        if(result<0)LOG_I("err"+i2s(result));
+        if(result<0)LOG_I("allocate buffer err:"+i2s(result));
     }
 
     lastID++;
@@ -130,6 +114,9 @@ int ObjectGroup::newCapacity(size_t vertexCount)
     glBindBuffer(GL_ARRAY_BUFFER, _vbo);
     glUnmapBuffer(GL_ARRAY_BUFFER);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+    glDeleteVertexArrays(1,&vao);
+    glDeleteBuffers(1,&vbo);
 
     vao=_vao;
     vbo=_vbo;

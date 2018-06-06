@@ -85,50 +85,14 @@ void WorldRenderer::render()
     glUniformMatrix4fv(glGetUniformLocation(blockShader, "proj"), 1, GL_FALSE, glm::value_ptr(context->proj));
     glUniform3fv(glGetUniformLocation(blockShader, "lightColor"), 1,glm::value_ptr(context->light0.color));
     glUniform3fv(glGetUniformLocation(blockShader, "lightPos"), 1,glm::value_ptr(context->light0.pos));
-    //glBindVertexArray(bs->vao);
     for(BaseChunk*mchunk:mWorld->mChunks)
     {
         glBindVertexArray(mchunk->objGroup->vao);
         glm::mat4 model;
-        model = glm::translate(model,glm::vec3(mchunk->pos));
+        model = glm::translate(model,glm::vec3(mchunk->objGroup->position));
         glUniformMatrix4fv(glGetUniformLocation(blockShader, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glDrawArrays(GL_TRIANGLES,0,mchunk->objGroup->mVertexCount);
         glBindVertexArray(0);
-        /*for(auto it=mchunk->mBlocks.begin();it!=mchunk->mBlocks.end();it++)
-        {
-            glm::mat4 model;
-            model = glm::translate(model,glm::vec3(it->first));
-            glUniformMatrix4fv(glGetUniformLocation(blockShader, "model"), 1, GL_FALSE, glm::value_ptr(model));
-            glDrawArrays(GL_TRIANGLES,0,36);
-
-        }*/
     }
 
-
-
-    /*glUseProgram(objShader);
-
-    for(BaseChunk* mchunk:mWorld->mChunks)
-        if(mchunk!=NULL)
-            for(BaseObject* mObj:mchunk->mObjects)
-            {
-                for(BasePiece*piece:mObj->mPieces)
-                {
-                    glBindVertexArray(piece->vao);
-                    glUniformMatrix4fv(glGetUniformLocation(objShader, "view"), 1, GL_FALSE, glm::value_ptr(context->view));
-                    glUniformMatrix4fv(glGetUniformLocation(objShader, "proj"), 1, GL_FALSE, glm::value_ptr(context->proj));
-                    glUniform3fv(glGetUniformLocation(objShader, "lightColor"), 1,glm::value_ptr(context->light0.color));
-                    glUniform3fv(glGetUniformLocation(objShader, "lightPos"), 1,glm::value_ptr(context->light0.pos));
-                    glm::mat4 model;
-                    //model = glm::translate(model,mObj->pos);
-                    glUniformMatrix4fv(glGetUniformLocation(objShader, "model"), 1, GL_FALSE, glm::value_ptr(model));
-
-                    glDrawElements(GL_TRIANGLES, piece->indicesize, GL_UNSIGNED_INT, 0);
-                    glBindVertexArray(0);
-                }
-
-
-
-            }
-    */
 }

@@ -14,7 +14,7 @@ void main()
 {
     fragPos=vec3(model*vec4(position, 1.0));
     mTexCoord=TexCoord;
-    mNormal=vec3(model*vec4(normal, 1.0));
+    mNormal=vec3(model*vec4(normal, 1.0));//sc
     gl_Position = proj*view*vec4(fragPos,1.0);
 
 }

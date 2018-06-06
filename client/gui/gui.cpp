@@ -161,7 +161,7 @@ BaseScreen* gui::getTopScreen()
 void gui::popScreen()
 {
     getTopScreen()->onExit();
-    delete getTopScreen();
+    //delete getTopScreen();
     screenStack.pop();
 }
 

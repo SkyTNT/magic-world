@@ -58,6 +58,12 @@ float vertices[] =
         0,  1, 0, 0.0f,  1.0f,  0.0f,
 };
 
+void BaseChunk::setPos(glm::ivec3 _pos)
+{
+    pos=_pos;
+    objGroup->position=_pos;
+}
+
 void BaseChunk::setBlock(glm::ivec3 bpos,int id,int data)
 {
     mBlocks[bpos]=BlockIdAndData{id,data};
