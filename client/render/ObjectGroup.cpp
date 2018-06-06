@@ -39,7 +39,7 @@ ObjectGroup::Buffer ObjectGroup::allocateBuffer(size_t vertexCount)
 
 }
 
-void ObjectGroup::addVertexBuffer(void *buff,size_t vertexCount)
+int ObjectGroup::writeBuffer(Buffer traget,void* buff,size_t vertexCount)
 {
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);

@@ -17,11 +17,12 @@ public:
     ObjectGroup();
     ~ObjectGroup();
     void init();
-    Buffer allocateBuffer(size_t vertexCount);
+    BufferID allocateBuffer(size_t vertexCount);
     int writeBuffer(Buffer traget,void* buff,size_t vertexCount);
     int translate(Buffer traget,glm::vec3 pos);
     int newCapacity(size_t vertexCount);
-//private:
+    Buffer getBuffer(BufferID id);
+private:
     std::map<BufferID,Buffer>mBuffers;
     unsigned int mCapacity;
 };
