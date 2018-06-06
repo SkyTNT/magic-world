@@ -2,11 +2,7 @@
 
 #include <string>
 #include <vector>
-
-struct BlockIdAndData
-{
-int id,data;
-};
+#include "BlockIdAndData.h"
 
 class BlockShape;
 class Texture;
@@ -19,10 +15,12 @@ public:
 
     virtual bool isSolid();
     virtual BlockShape* getShape();
+    virtual Texture* getTexture(unsigned int data);
     virtual void init();
 
     static Block* mBlocks[1024];
     static void initBlocks();
+    static void deleteBlocks();
     static Texture* blockTextures;
 protected:
     std::string name;

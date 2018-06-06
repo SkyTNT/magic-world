@@ -213,7 +213,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         return 0;
     }
 
-    hwnd = CreateWindowEx(WS_EX_CLIENTEDGE,"WindowClass","magic-world",WS_VISIBLE|WS_OVERLAPPEDWINDOW|WS_CLIPCHILDREN|WS_CLIPSIBLINGS,
+    hwnd = CreateWindowEx(WS_EX_CLIENTEDGE,"WindowClass","magic world",WS_VISIBLE|WS_OVERLAPPEDWINDOW|WS_CLIPCHILDREN|WS_CLIPSIBLINGS,
                           CW_USEDEFAULT, /* x */
                           CW_USEDEFAULT, /* y */
                           1000, /* width */

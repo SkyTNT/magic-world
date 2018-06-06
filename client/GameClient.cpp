@@ -7,6 +7,7 @@
 #include "gui/screen/BaseScreen.h"
 #include "gui/screen/PlayScreen.h"
 #include "../block/Block.h"
+#include "../block/blockshape/BlockShape.h"
 #include <math.h>
 #include <stdlib.h>
 #define VKW(a) a-32
@@ -30,6 +31,8 @@ GameClient::~GameClient()
     delete mPlayer;
     delete mGameRenderer;
     if(mWorld!=NULL)delete mWorld;
+    Block::deleteBlocks();
+    BlockShape::deleteBlockShapes();
 }
 
 void GameClient::init()
@@ -40,6 +43,7 @@ void GameClient::init()
     setwidthheight(wr.right,wr.bottom);
 
     Block::initBlocks();
+    BlockShape::initBlockShapes();
     mGui->init();
     mGui->pushPlayScreen();
     mGameRenderer->init();

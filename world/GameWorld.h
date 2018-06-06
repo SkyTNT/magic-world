@@ -1,12 +1,14 @@
 #pragma once
 
 #include <vector>
+#include <glm/vec3.hpp>
 
 #define MAX_CHUNK 16
 
 class Player;
 class BaseChunk;
 class WorldGenerator;
+class GameClient;
 
 class GameWorld
 {
@@ -16,9 +18,14 @@ public:
     WorldGenerator *worldgenerator;
     unsigned int centerChunk;
 
-    GameWorld();
+    GameWorld(GameClient* _client);
     virtual ~GameWorld();
 
     virtual void init(int _seed);
     virtual void tick(float dtime);
+
+    BaseChunk* getChunk(glm::vec3 pos);
+    BaseChunk* getChunk(glm::ivec3 pos);
+private:
+    GameClient* client;
 };

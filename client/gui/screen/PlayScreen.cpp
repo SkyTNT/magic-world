@@ -41,7 +41,7 @@ void PlayScreen::init()
 
 }
 HGLRC hrc1=NULL;
-void createWorldThread(GameClient*gc)
+/*void createWorldThread(GameClient*gc)
 {
     wglMakeCurrent(gc->hdc,hrc1);
 
@@ -52,7 +52,7 @@ void createWorldThread(GameClient*gc)
     wglMakeCurrent(NULL,NULL);
     wglDeleteContext(hrc1);
 
-}
+}*/
 
 void PlayScreen::guiElementCallBack(int msg,GuiElement*mguielement)
 {
@@ -65,7 +65,7 @@ void PlayScreen::guiElementCallBack(int msg,GuiElement*mguielement)
             thread createworldtask(createWorldThread,client);
             createworldtask.detach();*/
 
-            GameWorld*mWorld=new GameWorld();
+            GameWorld*mWorld=new GameWorld(client);
             mWorld->init(time(0));
             mWorld->mainPlayer=client->getMainPlayer();
             client->setWorld(mWorld);

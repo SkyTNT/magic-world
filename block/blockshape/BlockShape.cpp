@@ -1,74 +1,36 @@
 #include "BlockShape.h"
 #include "../../client/render/RendererContext.h"
+#include "CubeBlockShape.h"
+#include "../../utils/Utils.h"
+
+
+BlockShape* BlockShape::mBlockShapes[1024];
 
 BlockShape::BlockShape()
 {
-    glGenVertexArrays(1, &vao);
-    glGenBuffers(1, &vbo);
-    ebo=0;
 }
 BlockShape::~BlockShape()
 {
-    glDeleteVertexArrays(1,&vao);
-    glDeleteBuffers(1,&vbo);
 }
 
 void BlockShape::init()
 {
-    GLfloat vertices[] =
-    {
-        0, 0, 0,0.0f,  0.0f, -1.0f,
-        0,  1,0,0.0f,  0.0f, -1.0f,
-        1,  1, 0,0.0f,  0.0f, -1.0f,
-        1,  1, 0,0.0f,  0.0f, -1.0f,
-        1, 0, 0,0.0f,  0.0f, -1.0f,
-        0, 0, 0,0.0f,  0.0f, -1.0f,
+}
 
-        0, 0,  1,0.0f,  0.0f,  1.0f,
-        1, 0,  1,0.0f,  0.0f,  1.0f,
-        1,  1,  1, 0.0f,  0.0f,  1.0f,
-        1,  1,  1, 0.0f,  0.0f,  1.0f,
-        0,  1,  1, 0.0f,  0.0f,  1.0f,
-        0, 0,  1, 0.0f,  0.0f,  1.0f,
+void BlockShape::addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData)
+{
 
-        0,  1,  1,-1.0f,  0.0f,  0.0f,
-        0,  1, 0,-1.0f,  0.0f,  0.0f,
-        0, 0, 0, -1.0f,  0.0f,  0.0f,
-        0, 0, 0, -1.0f,  0.0f,  0.0f,
-        0, 0,  1, -1.0f,  0.0f,  0.0f,
-        0,  1,  1, -1.0f,  0.0f,  0.0f,
+}
 
-        1,  1,  1, 1.0f,  0.0f,  0.0f,
-        1, 0,  1, 1.0f,  0.0f,  0.0f,
-        1, 0, 0,1.0f,  0.0f,  0.0f,
-        1, 0, 0, 1.0f,  0.0f,  0.0f,
-        1,  1, 0, 1.0f,  0.0f,  0.0f,
-        1,  1,  1, 1.0f,  0.0f,  0.0f,
-
-        0, 0, 0, 0.0f, -1.0f,  0.0f,
-        1, 0, 0, 0.0f, -1.0f,  0.0f,
-        1, 0, 1, 0.0f, -1.0f,  0.0f,
-        1, 0,  1, 0.0f, -1.0f,  0.0f,
-        0, 0,  1, 0.0f, -1.0f,  0.0f,
-        0, 0, 0, 0.0f, -1.0f,  0.0f,
-
-        0,  1, 0, 0.0f,  1.0f,  0.0f,
-        0,  1,  1, 0.0f,  1.0f,  0.0f,
-        1,  1, 1, 0.0f,  1.0f,  0.0f,
-        1,  1,  1, 0.0f,  1.0f,  0.0f,
-        1,  1, 0, 0.0f,  1.0f,  0.0f,
-        0,  1, 0, 0.0f,  1.0f,  0.0f,
-    };
-    glBindVertexArray(vao);
-
-    glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_DYNAMIC_DRAW);
-
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), (GLvoid*)0);
-    glEnableVertexAttribArray(0);
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), (GLvoid*)(3 * sizeof(GLfloat)));
-    glEnableVertexAttribArray(1);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-
-    glBindVertexArray(0);
+void BlockShape::initBlockShapes()
+{
+    memset(mBlockShapes,0,sizeof(mBlockShapes));
+    mBlockShapes[SHAPE_CUBE]=new CubeBlockShape();
+    mBlockShapes[SHAPE_CUBE]->init();
+}
+void BlockShape::deleteBlockShapes()
+{
+    for(BlockShape*shape:mBlockShapes)
+        if(shape!=NULL)
+            delete shape;
 }

@@ -20,9 +20,9 @@ Texture* Texture::subTexture(float  _u1,float _v1,float _u2,float _v2)
     float heigh=v2-v1;
     Texture*tex=new Texture(texid);
     tex->u1=u1+width*_u1;
-    tex->v1=v1+width*_v1;
-    tex->u2=u2+heigh*_u2;
-    tex->v2=v2+heigh*_v2;
+    tex->v1=v1+heigh*_v1;
+    tex->u2=u1+width*_u2;
+    tex->v2=v1+heigh*_v2;
 
     return tex;
 }
