@@ -11,18 +11,20 @@ typedef int BufferID;
 class ObjectGroup{
 public:
     struct Buffer{
-        size_t startVector,vectorCount;
+        size_t startVertex,vertexCount;
     };
-    unsigned int vao,vbo;
+    unsigned int vao,vbo,mVertexCount;
+    glm::vec3 position;
     ObjectGroup();
     ~ObjectGroup();
     void init();
     BufferID allocateBuffer(size_t vertexCount);
-    int writeBuffer(Buffer traget,void* buff,size_t vertexCount);
-    int translate(Buffer traget,glm::vec3 pos);
+    int writeBuffer(Buffer target,void* buff,size_t vertexCount);
+    int translate(Buffer target,glm::vec3 pos);
     int newCapacity(size_t vertexCount);
     Buffer getBuffer(BufferID id);
 private:
     std::map<BufferID,Buffer>mBuffers;
-    unsigned int mCapacity;
+    unsigned int mVertexCapacity;
+    BufferID lastID;
 };

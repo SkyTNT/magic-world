@@ -60,9 +60,10 @@ float vertices[] =
 
 void BaseChunk::setBlock(glm::ivec3 bpos,int id,int data)
 {
-    mBlocks[pos]=BlockIdAndData{id,data};
-    objGroup->translate(glm::vec3(bpos-pos));
-    objGroup->addVertexBuffer(vertices,36);
+    mBlocks[bpos]=BlockIdAndData{id,data};
+    ObjectGroup::Buffer buff=objGroup->getBuffer(objGroup->allocateBuffer(36));
+    objGroup->writeBuffer(buff,vertices,36);
+    objGroup->translate(buff,glm::vec3(bpos-pos));
 }
 void BaseChunk::setBlock(int x,int y,int z,int id,int data)
 {

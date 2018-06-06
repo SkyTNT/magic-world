@@ -92,7 +92,7 @@ void WorldRenderer::render()
         glm::mat4 model;
         model = glm::translate(model,glm::vec3(mchunk->pos));
         glUniformMatrix4fv(glGetUniformLocation(blockShader, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        glDrawArrays(GL_TRIANGLES,0,mchunk->objGroup->objCount*36);
+        glDrawArrays(GL_TRIANGLES,0,mchunk->objGroup->mVertexCount);
         glBindVertexArray(0);
         /*for(auto it=mchunk->mBlocks.begin();it!=mchunk->mBlocks.end();it++)
         {
