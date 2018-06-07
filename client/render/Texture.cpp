@@ -3,10 +3,10 @@
 Texture::Texture(unsigned int _texid)
 {
     texid=_texid;
-    u1=0;
-    v1=0;
-    u2=1;
-    v2=1;
+    u1=0.0f;
+    v1=0.0f;
+    u2=1.0f;
+    v2=1.0f;
 }
 
 Texture::~Texture()

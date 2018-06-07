@@ -19,6 +19,7 @@ ObjectGroup::~ObjectGroup()
 {
     glDeleteVertexArrays(1,&vao);
     glDeleteBuffers(1,&vbo);
+
 }
 
 void ObjectGroup::init()
@@ -79,8 +80,8 @@ int ObjectGroup::useTexture(Buffer target,Texture* tex)
         glm::vec2* uv=(glm::vec2*)(vboptr+(target.startVertex+i)*STEP_LONG+6*sizeof(float));
         float width=tex->u2-tex->u1;
         float heigh=tex->v2-tex->v1;
-        uv->s=tex->u1+width*uv->s;
-        uv->t=tex->v1+heigh*uv->t;
+        uv->x=tex->u1+width*uv->x;
+        uv->y=tex->v1+heigh*uv->y;
     }
     glUnmapBuffer(GL_ARRAY_BUFFER);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
