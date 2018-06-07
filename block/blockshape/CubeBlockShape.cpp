@@ -64,7 +64,7 @@ void CubeBlockShape::init()
 
 }
 
-void CubeBlockShape::addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData)
+void CubeBlockShape::addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData,int& buffid)
 {
     BaseChunk* chunk=world->getChunk(bpos);
     if(chunk==NULL)
@@ -73,7 +73,8 @@ void CubeBlockShape::addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,B
         return;
     }
     ObjectGroup* objGroup=chunk->objGroup;
-    ObjectGroup::Buffer buff=objGroup->getBuffer(objGroup->allocateBuffer(36));
+    if(buffid==0)buffid=objGroup->allocateBuffer(36);
+    ObjectGroup::Buffer buff=objGroup->getBuffer(buffid);
     objGroup->writeBuffer(buff,vertices,36);
     objGroup->translate(buff,glm::vec3(bpos-chunk->pos));
     objGroup->useTexture(buff,Block::mBlocks[idAndData.id]->getTexture(0));

@@ -17,7 +17,7 @@ void BlockShape::init()
 {
 }
 
-void BlockShape::addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData)
+void BlockShape::addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData,int &buffid)
 {
 
 }

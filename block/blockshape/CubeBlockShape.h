@@ -10,7 +10,7 @@ public:
 
     virtual void init();
 
-    virtual void addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData);
+    virtual void addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData,int &buffid);
 private:
     float *vertices;
 };

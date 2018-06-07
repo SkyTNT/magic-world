@@ -17,9 +17,9 @@ void WorldGenerator::genChunk(BaseChunk*mchunk)
 {
 
     glm::ivec3 chunkpos=mchunk->pos;
-    for(int i=0; i<CHUNK_SIZE; i++)
+    for(int i=0; i<6; i++)
     {
-        for(int j=0; j<CHUNK_SIZE; j++)
+        for(int j=0; j<10; j++)
         {
             mchunk->setBlock(chunkpos+glm::ivec3(j,0,i),1,0);
         }

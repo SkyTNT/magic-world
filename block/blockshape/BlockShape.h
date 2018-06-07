@@ -16,7 +16,7 @@ public:
     virtual ~BlockShape();
 
     virtual void init();
-    virtual void addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData);
+    virtual void addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData,int &buffid);
 
     static void initBlockShapes();
     static void deleteBlockShapes();

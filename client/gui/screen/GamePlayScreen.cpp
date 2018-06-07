@@ -137,6 +137,7 @@ void GamePlayScreen::onMouse(int msg,float mx,float my)
 
         mplayer->setHeadRotate(rx,ry);
         client->setMousePos(cx,cy);
+
         break;
     }
     }

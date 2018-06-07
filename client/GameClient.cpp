@@ -75,7 +75,7 @@ void GameClient::setWorld(GameWorld*_mWorld)
 
 void GameClient::setMousePos(float x,float y)
 {
-    POINT mpos= {x,y};
+    POINT mpos= {x,height-y};
     ClientToScreen(hwnd,&mpos);
     SetCursorPos(mpos.x,mpos.y);
 }

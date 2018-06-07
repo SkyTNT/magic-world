@@ -5819,13 +5819,13 @@
 1528294891 c:\workspace\magic-world\block\dirt.h
 	"Block.h"
 
-1528293013 source:c:\workspace\magic-world\block\blockshape\blockshape.cpp
+1528356665 source:c:\workspace\magic-world\block\blockshape\blockshape.cpp
 	"BlockShape.h"
 	"../../client/render/RendererContext.h"
 	"CubeBlockShape.h"
 	"../../utils/Utils.h"
 
-1528292423 c:\workspace\magic-world\block\blockshape\blockshape.h
+1528356665 c:\workspace\magic-world\block\blockshape\blockshape.h
 	<glm/vec3.hpp>
 	"../BlockIdAndData.h"
 
@@ -6365,7 +6365,7 @@
 	"Dirt.h"
 	"../client/render/Texture.h"
 
-1528270945 source:c:\workspace\magic-world\client\gui\gui.cpp
+1528344666 source:c:\workspace\magic-world\client\gui\gui.cpp
 	"gui.h"
 	"../GameClient.h"
 	"screen/BaseScreen.h"
@@ -6437,7 +6437,7 @@
 	"../../../utils/Utils.h"
 	"../guiElement/GuiElement.h"
 
-1526201018 source:c:\workspace\magic-world\client\gui\screen\gameplayscreen.cpp
+1528351120 source:c:\workspace\magic-world\client\gui\screen\gameplayscreen.cpp
 	"GamePlayScreen.h"
 	"../../GameClient.h"
 	"../guiElement/TButton.h"
@@ -6460,8 +6460,9 @@
 	<vector>
 	<glm/vec3.hpp>
 
-1528291865 c:\workspace\magic-world\world\chunk\basechunk.h
+1528354023 c:\workspace\magic-world\world\chunk\basechunk.h
 	<map>
+	<queue>
 	<vector>
 	<glm/vec3.hpp>
 	"../../utils/VecUtils.h"
@@ -6531,13 +6532,13 @@
 	<Saba/Model/MMD/PMDModel.h>
 	<Saba/Model/MMD/PMXModel.h>
 
-1528343939 source:c:\workspace\magic-world\client\render\objectgroup.cpp
+1528350384 source:c:\workspace\magic-world\client\render\objectgroup.cpp
 	"ObjectGroup.h"
 	"RendererContext.h"
 	"Texture.h"
 	"../../utils/Utils.h"
 
-1528287474 c:\workspace\magic-world\client\render\objectgroup.h
+1528350373 c:\workspace\magic-world\client\render\objectgroup.h
 	<stddef.h>
 	<vector>
 	<map>
@@ -6575,7 +6576,7 @@
 	<intrin.h>
 	<arm_neon.h>
 
-1528285174 source:c:\workspace\magic-world\client\render\worldrenderer.cpp
+1528348112 source:c:\workspace\magic-world\client\render\worldrenderer.cpp
 	"WorldRenderer.h"
 	"../GameClient.h"
 	"../../entity/player/Player.h"
@@ -6640,14 +6641,14 @@
 1525952468 source:c:\workspace\magic-world\utils\vecutils.cpp
 	"VecUtils.h"
 
-1528344057 source:c:\workspace\magic-world\world\chunk\basechunk.cpp
+1528356666 source:c:\workspace\magic-world\world\chunk\basechunk.cpp
 	"BaseChunk.h"
 	"../GameWorld.h"
 	"../../block/blockshape/BlockShape.h"
 	"../../client/render/ObjectGroup.h"
 	<glm/vec3.hpp>
 
-1528293651 source:c:\workspace\magic-world\world\gameworld.cpp
+1528353930 source:c:\workspace\magic-world\world\gameworld.cpp
 	"GameWorld.h"
 	"../client/GameClient.h"
 	"../entity/player/Player.h"
@@ -6655,13 +6656,13 @@
 	"chunk/BaseChunk.h"
 	"generation/WorldGenerator.h"
 
-1525860028 source:c:\workspace\magic-world\world\generation\worldgenerator.cpp
+1528354507 source:c:\workspace\magic-world\world\generation\worldgenerator.cpp
 	"WorldGenerator.h"
 	"../GameWorld.h"
 	"../chunk/BaseChunk.h"
 	"../../utils/NoiseGenerator.h"
 
-1528292813 source:c:\workspace\magic-world\client\gameclient.cpp
+1528351190 source:c:\workspace\magic-world\client\gameclient.cpp
 	"GameClient.h"
 	"gui/gui.h"
 	"../entity/player/Player.h"
@@ -7658,10 +7659,10 @@
 
 1528275281 c:\workspace\magic-world\client\render\texture.h
 
-1528291006 c:\workspace\magic-world\block\blockshape\cubeblockshape.h
+1528356666 c:\workspace\magic-world\block\blockshape\cubeblockshape.h
 	"BlockShape.h"
 
-1528294891 source:c:\workspace\magic-world\block\blockshape\cubeblockshape.cpp
+1528351374 source:c:\workspace\magic-world\block\blockshape\cubeblockshape.cpp
 	"CubeBlockShape.h"
 	"../../client/render/RendererContext.h"
 	"../../world/GameWorld.h"

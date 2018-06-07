@@ -40,6 +40,12 @@ void GameWorld::init(int _seed)
 int offs=0;
 void GameWorld::tick(float dtime)
 {
+    for(BaseChunk*mchunk:mChunks)
+    {
+        if(mchunk!=NULL)
+            mchunk->tick(dtime);
+    }
+
     glm::vec3 playerpos=mainPlayer->getPos(),centerpos=mChunks[centerChunk]->pos;
     if(playerpos.x>centerpos.x+CHUNK_SIZE)
     {

@@ -29,6 +29,7 @@ public:
     Buffer getBuffer(BufferID id);
 private:
     std::map<BufferID,Buffer>mBuffers;
-    unsigned int mVertexCapacity;
+    void *bufferBuffer;
+    unsigned int mVertexCapacity,mBufferBufferCapacity,bufferBufferVertexCount;
     BufferID lastID;
 };

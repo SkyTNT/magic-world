@@ -9,7 +9,9 @@ ObjectGroup::ObjectGroup()
 {
     vao=0;
     vbo=0;
+    bufferBuffer=NULL;
     mVertexCapacity=0;
+    mBufferBufferCapacity=0;
     lastID=0;
     mVertexCount=0;
     position=glm::vec3();
@@ -47,6 +49,7 @@ int ObjectGroup::writeBuffer(Buffer target,void* buff,size_t vertexCount)
     if(vboptr==0)return -1;
     memcpy(vboptr+target.startVertex*STEP_LONG,buff,target.vertexCount*STEP_LONG);
     glUnmapBuffer(GL_ARRAY_BUFFER);
+    //glBufferSubData(GL_ARRAY_BUFFER,target.startVertex*STEP_LONG,target.vertexCount*STEP_LONG,buff);//instead
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     return 0;
 }
