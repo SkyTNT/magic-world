@@ -30,6 +30,7 @@ public:
     void setPos(glm::ivec3 _pos);
     void setBlock(glm::ivec3 bpos,int id,int data);
     void setBlock(int x,int y,int z,int id,int data);
+    BlockIdAndData getBlock(glm::ivec3 bpos);
     void updateBlock(glm::ivec3 bpos);
 
     void tick(float dtime);

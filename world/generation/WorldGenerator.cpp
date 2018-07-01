@@ -17,11 +17,13 @@ void WorldGenerator::genChunk(BaseChunk*mchunk)
 {
 
     glm::ivec3 chunkpos=mchunk->pos;
-    for(int i=0; i<6; i++)
+    for(int i=0; i<CHUNK_SIZE; i++)
     {
-        for(int j=0; j<10; j++)
+        for(int j=0; j<CHUNK_SIZE; j++)
         {
-            mchunk->setBlock(chunkpos+glm::ivec3(j,0,i),1,0);
+            #define getheight(a,b) heightMapGenerator->getHeight(b+chunkpos.x+INT_MAX/2,a+chunkpos.z+INT_MAX/2)-100
+            mchunk->setBlock(chunkpos+glm::ivec3(j,getheight(i,j),i),1,0);
+            #undef getheight
         }
     }
 /*    srand(seed+(int)chunkpos.x+(int)chunkpos.z);

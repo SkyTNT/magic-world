@@ -4,6 +4,7 @@
 #include "../utils/Utils.h"
 #include "chunk/BaseChunk.h"
 #include "generation/WorldGenerator.h"
+#include "../block/BlockIdAndData.h"
 
 GameWorld::GameWorld(GameClient* _client)
 {
@@ -179,5 +180,12 @@ BaseChunk* GameWorld::getChunk(glm::ivec3 pos)
         }
     }
     return NULL;
+}
+
+BlockIdAndData GameWorld::getBlock(glm::ivec3 pos)
+{
+    BaseChunk*mchunk=getChunk(pos);
+    if(mchunk==NULL)return {0,0};
+    return mchunk->getBlock(pos);
 }
 

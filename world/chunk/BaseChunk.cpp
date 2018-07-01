@@ -35,6 +35,14 @@ void BaseChunk::setBlock(int x,int y,int z,int id,int data)
     setBlock(glm::ivec3(x,y,z),id,data);
 }
 
+BlockIdAndData BaseChunk::getBlock(glm::ivec3 bpos)
+{
+    auto it=mBlocks.find(bpos);
+    if(it==mBlocks.end())
+        return {0,0};
+    return it->second.idanddata;
+}
+
 void BaseChunk::updateBlock(glm::ivec3 bpos)
 {
     prepareUpdate->push(bpos);

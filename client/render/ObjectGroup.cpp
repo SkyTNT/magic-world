@@ -5,6 +5,7 @@
 
 #define STEP_LONG 8*sizeof(float)
 
+
 ObjectGroup::ObjectGroup()
 {
     vao=0;

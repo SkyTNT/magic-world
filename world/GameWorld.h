@@ -9,6 +9,7 @@ class Player;
 class BaseChunk;
 class WorldGenerator;
 class GameClient;
+struct BlockIdAndData;
 
 class GameWorld
 {
@@ -26,6 +27,7 @@ public:
 
     BaseChunk* getChunk(glm::vec3 pos);
     BaseChunk* getChunk(glm::ivec3 pos);
+    BlockIdAndData getBlock(glm::ivec3 pos);
 private:
     GameClient* client;
 };
