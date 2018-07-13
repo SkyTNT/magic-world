@@ -19,15 +19,15 @@ public:
     unsigned int vao,vbo,mVertexCount;
     glm::vec3 position;
     ObjectGroup();
-    ~ObjectGroup();
-    void init();
+    virtual ~ObjectGroup();
+    virtual void init();
     BufferID allocateBuffer(size_t vertexCount);
     int writeBuffer(Buffer target,void* buff,size_t vertexCount);
     int translate(Buffer target,glm::vec3 pos);
     int newCapacity(size_t vertexCount);
     int useTexture(Buffer target,Texture* tex);
     Buffer getBuffer(BufferID id);
-private:
+protected:
     std::map<BufferID,Buffer>mBuffers;
     void *bufferBuffer;
     unsigned int mVertexCapacity,mBufferBufferCapacity,bufferBufferVertexCount;

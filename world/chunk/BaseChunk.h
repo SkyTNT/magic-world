@@ -9,20 +9,23 @@
 #define CHUNK_SIZE 16
 
 class ObjectGroup;
+class BlockObjectGroup;
 class GameWorld;
 
 class BaseChunk
 {
 private:
-    struct BlockInfo
+
+    struct ChunkSection
     {
-        BlockIdAndData idanddata;
-        int buffid;
+        int height;
+        BlockIdAndData mBlocks[CHUNK_SIZE][CHUNK_SIZE];
     };
+
 public:
     glm::ivec3 pos;
-    std::map<glm::ivec3,BlockInfo,ivec3cmp>mBlocks;
-    ObjectGroup*objGroup;
+    std::map<glm::ivec3,BlockIdAndData,ivec3cmp>mBlocks;
+    BlockObjectGroup*blockObjGroup;
 
     BaseChunk(GameWorld* _world);
     virtual ~BaseChunk();

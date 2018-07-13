@@ -98,8 +98,6 @@
 		<Unit filename="client/render/Light.h" />
 		<Unit filename="client/render/MMDRenderer.cpp" />
 		<Unit filename="client/render/MMDRenderer.h" />
-		<Unit filename="client/render/ObjectGroup.cpp" />
-		<Unit filename="client/render/ObjectGroup.h" />
 		<Unit filename="client/render/RendererContext.cpp" />
 		<Unit filename="client/render/RendererContext.h" />
 		<Unit filename="client/render/Texture.cpp" />
@@ -108,6 +106,10 @@
 		<Unit filename="client/render/Textures.h" />
 		<Unit filename="client/render/WorldRenderer.cpp" />
 		<Unit filename="client/render/WorldRenderer.h" />
+		<Unit filename="client/render/objectgroup/BlockObjectGroup.cpp" />
+		<Unit filename="client/render/objectgroup/BlockObjectGroup.h" />
+		<Unit filename="client/render/objectgroup/ObjectGroup.cpp" />
+		<Unit filename="client/render/objectgroup/ObjectGroup.h" />
 		<Unit filename="entity/Entity.cpp" />
 		<Unit filename="entity/Entity.h" />
 		<Unit filename="entity/player/Player.cpp" />

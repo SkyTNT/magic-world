@@ -1,7 +1,7 @@
 #include "ObjectGroup.h"
-#include "RendererContext.h"
-#include "Texture.h"
-#include "../../utils/Utils.h"
+#include "../RendererContext.h"
+#include "../Texture.h"
+#include "../../../utils/Utils.h"
 
 #define STEP_LONG 8*sizeof(float)
 

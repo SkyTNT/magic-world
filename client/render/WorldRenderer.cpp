@@ -7,7 +7,7 @@
 #include "../../utils/Utils.h"
 #include "../../block/blockshape/BlockShape.h"
 #include "../../block/Block.h"
-#include "ObjectGroup.h"
+#include "objectgroup/BlockObjectGroup.h"
 #include <math.h>
 
 #define M_PI  3.14159265358979323846264f
@@ -90,11 +90,11 @@ void WorldRenderer::render()
     glUniform1i(glGetUniformLocation(blockShader, "mTexture"), 0);
     for(BaseChunk*mchunk:mWorld->mChunks)
     {
-        glBindVertexArray(mchunk->objGroup->vao);
+        glBindVertexArray(mchunk->blockObjGroup->vao);
         glm::mat4 model;
-        model = glm::translate(model,glm::vec3(mchunk->objGroup->position));
+        model = glm::translate(model,glm::vec3(mchunk->blockObjGroup->position));
         glUniformMatrix4fv(glGetUniformLocation(blockShader, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        glDrawArrays(GL_TRIANGLES,0,mchunk->objGroup->mVertexCount);
+        glDrawArrays(GL_TRIANGLES,0,mchunk->blockObjGroup->mVertexCount);
         glBindVertexArray(0);
     }
 

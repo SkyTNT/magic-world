@@ -1,19 +1,19 @@
 #include "BaseChunk.h"
 #include "../GameWorld.h"
 #include "../../block/blockshape/BlockShape.h"
-#include "../../client/render/ObjectGroup.h"
+#include "../../client/render/objectgroup/BlockObjectGroup.h"
 #include <glm/vec3.hpp>
 BaseChunk::BaseChunk(GameWorld* _world)
 {
     world=_world;
-    objGroup=new ObjectGroup();
-    objGroup->init();
+    blockObjGroup=new BlockObjectGroup();
+    blockObjGroup->init();
     prepareUpdate=new std::queue<glm::ivec3>();
 }
 
 BaseChunk::~BaseChunk()
 {
-    delete objGroup;
+    delete blockObjGroup;
     mBlocks.clear();
     delete prepareUpdate;
 }
@@ -21,13 +21,13 @@ BaseChunk::~BaseChunk()
 void BaseChunk::setPos(glm::ivec3 _pos)
 {
     pos=_pos;
-    objGroup->position=_pos;
+    blockObjGroup->position=_pos;
 }
 
 void BaseChunk::setBlock(glm::ivec3 bpos,int id,int data)
 {
     BlockIdAndData idanddata= {id,data};
-    mBlocks[bpos]=BlockInfo{idanddata,0};
+    mBlocks[bpos]=idanddata;
     updateBlock(bpos);
 }
 void BaseChunk::setBlock(int x,int y,int z,int id,int data)
@@ -40,7 +40,7 @@ BlockIdAndData BaseChunk::getBlock(glm::ivec3 bpos)
     auto it=mBlocks.find(bpos);
     if(it==mBlocks.end())
         return {0,0};
-    return it->second.idanddata;
+    return it->second;
 }
 
 void BaseChunk::updateBlock(glm::ivec3 bpos)
@@ -63,8 +63,8 @@ void BaseChunk::tick(float dtime)
         auto it=mBlocks.find(ubpos);
         if(it==mBlocks.end())
             continue;
-        BlockIdAndData idanddata=it->second.idanddata;
-        Block::mBlocks[idanddata.id]->getShape()->addToWorld(world,ubpos,glm::vec3(ubpos),idanddata,it->second.buffid);
+        BlockIdAndData idanddata=it->second;
+        Block::mBlocks[idanddata.id]->getShape()->addToWorld(world,ubpos,glm::vec3(ubpos),idanddata);
     }
     delete prepareUpdate;
     prepareUpdate=new std::queue<glm::ivec3>();
