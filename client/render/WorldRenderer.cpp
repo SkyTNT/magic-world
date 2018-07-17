@@ -2,8 +2,8 @@
 
 #include "../GameClient.h"
 #include "../../entity/player/Player.h"
-#include "../../world/GameWorld.h"
-#include "../../world/chunk/BaseChunk.h"
+#include "../../world/World.h"
+#include "../../world/chunk/Chunk.h"
 #include "../../utils/Utils.h"
 #include "../../block/blockshape/BlockShape.h"
 #include "../../block/Block.h"
@@ -59,7 +59,7 @@ void WorldRenderer::tick(float dtime)
     context->light0.setPos(epos);
 }
 
-void WorldRenderer::setWorld(GameWorld* _mWorld)
+void WorldRenderer::setWorld(World* _mWorld)
 {
     mWorld=_mWorld;
 }
@@ -88,7 +88,7 @@ void WorldRenderer::render()
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D,Block::blockTextures->texid);
     glUniform1i(glGetUniformLocation(blockShader, "mTexture"), 0);
-    for(BaseChunk*mchunk:mWorld->mChunks)
+    for(Chunk*mchunk:mWorld->mChunks)
     {
         glBindVertexArray(mchunk->blockObjGroup->vao);
         glm::mat4 model;

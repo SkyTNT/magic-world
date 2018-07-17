@@ -4,8 +4,8 @@
 #include "../../../utils/Utils.h"
 #include "../../../entity/player/Player.h"
 #include "../gui.h"
-#include "../../../world/GameWorld.h"
-#include "../../../world/chunk/BaseChunk.h"
+#include "../../../world/World.h"
+#include "../../../world/chunk/Chunk.h"
 #include <cstdlib>
 
 #define M_PI  3.14159265358979323846264f
@@ -31,7 +31,7 @@ GamePlayScreen::~GamePlayScreen()
 void GamePlayScreen::init()
 {
     setBackGroundColor(glm::vec4(0,0,0,0));
-    GameWorld*mWorld=client->getGameWorld();
+    World*mWorld=client->getGameWorld();
     client->getMainPlayer()->setPos(glm::vec3(mWorld->mChunks[mWorld->centerChunk]->pos)+glm::vec3(0,5,0));
     client->getMainPlayer()->setHeadRotate(0,0);
     client->setMousePos(client->width/2,client->height/2);
@@ -140,6 +140,13 @@ void GamePlayScreen::onMouse(int msg,float mx,float my)
 
         break;
     }
+    /*case EVENT_MOUSE_LDOWN:
+    {
+        Player*mplayer=client->getMainPlayer();
+        mplayer->placeBlock(glm::ivec3(mplayer->getPos()),{1,0});
+        break;
+    }*/
+
     }
 
 }

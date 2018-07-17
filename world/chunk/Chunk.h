@@ -12,9 +12,9 @@
 
 class ObjectGroup;
 class BlockObjectGroup;
-class GameWorld;
+class World;
 
-class BaseChunk
+class Chunk
 {
 private:
 
@@ -30,8 +30,8 @@ public:
     std::map<int ,ChunkSection*>chunkSections;
     BlockObjectGroup*blockObjGroup;
 
-    BaseChunk(GameWorld* _world);
-    virtual ~BaseChunk();
+    Chunk(World* _world);
+    virtual ~Chunk();
 
     void setPos(glm::ivec3 _pos);
     void setBlock(glm::ivec3 bpos,int id,int data);
@@ -45,7 +45,7 @@ private:
     //std::mutex mMutex;
     //std::condition_variable cond;
     bool updateing;
-    GameWorld* world;
+    World* world;
     std::queue<glm::ivec3>*prepareUpdate;
 
 };

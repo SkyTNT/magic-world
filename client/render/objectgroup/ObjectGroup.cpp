@@ -62,7 +62,7 @@ int ObjectGroup::translate(Buffer target,glm::vec3 pos)
     if(vboptr==0)return -1;
     glm::mat4 model;
     model = glm::translate(model,pos);
-    for(int i=0;i<target.vertexCount;i++)
+    for(unsigned int i=0;i<target.vertexCount;i++)
     {
         glm::vec3* vertexpos=(glm::vec3*)(vboptr+(target.startVertex+i)*STEP_LONG);
         glm::vec4 result=glm::vec4(*vertexpos,1);

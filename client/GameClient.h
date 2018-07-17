@@ -6,7 +6,7 @@
 
 class gui;
 class Player;
-class GameWorld;
+class World;
 class GameRenderer;
 
 class GameClient{
@@ -17,7 +17,7 @@ class GameClient{
 		gui* mGui;
 		GameRenderer*mGameRenderer;
 		Player*mPlayer;
-		GameWorld* mWorld;
+		World* mWorld;
 		float dtime;
 		clock_t lasttime;
 		int width,height;
@@ -28,13 +28,13 @@ class GameClient{
 		void tick();
 		void setDC(HDC _hdc);
 		void setwidthheight(int _width,int _height);
-		void setWorld(GameWorld*_mWorld);
+		void setWorld(World*_mWorld);
 		void setMousePos(float x,float y);
 		void setMouseVisibility(bool visibility);
 		void Exit();
 		gui* getGui();
 		Player* getMainPlayer();
-		GameWorld*getGameWorld();
+		World*getGameWorld();
 		void onKeyBoard(int msg,int code);
 		void onMouse(int msg);
 		void onExit();

@@ -6,30 +6,31 @@
 #define MAX_CHUNK 16
 
 class Player;
-class BaseChunk;
+class Chunk;
 class WorldGenerator;
 class GameClient;
 class ThreadPool;
 struct BlockIdAndData;
 
-class GameWorld
+class World
 {
 public:
     Player*mainPlayer;
-    BaseChunk *mChunks[MAX_CHUNK*MAX_CHUNK];
+    Chunk *mChunks[MAX_CHUNK*MAX_CHUNK];
     WorldGenerator *worldgenerator;
     unsigned int centerChunk;
     ThreadPool*worldThreadPool;
 
-    GameWorld(GameClient* _client);
-    virtual ~GameWorld();
+    World(GameClient* _client);
+    virtual ~World();
 
     virtual void init(int _seed);
     virtual void tick(float dtime);
 
-    BaseChunk* getChunk(glm::vec3 pos);
-    BaseChunk* getChunk(glm::ivec3 pos);
+    Chunk* getChunk(glm::vec3 pos);
+    Chunk* getChunk(glm::ivec3 pos);
     BlockIdAndData getBlock(glm::ivec3 pos);
+    void setBlock(glm::ivec3 pos,BlockIdAndData idanddata);
 private:
     GameClient* client;
 };

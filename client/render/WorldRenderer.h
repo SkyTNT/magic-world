@@ -8,7 +8,7 @@
 class WorldRenderer{
 public:
     GameClient*  client;
-    GameWorld*mWorld;
+    World*mWorld;
     Player* mPlayer;
     int width,height;
     RendererContext*context;
@@ -19,7 +19,7 @@ public:
     WorldRenderer(GameClient*_client);
     ~WorldRenderer();
     void init();
-    void setWorld(GameWorld* _mWorld);
+    void setWorld(World* _mWorld);
     void setwidthheight(int _width,int _height);
     void setLookAt(glm::vec3 epos,glm::vec3 cpos,glm::vec3 upos);
     void tick(float dtime);

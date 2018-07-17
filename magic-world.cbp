@@ -152,10 +152,10 @@
 		<Unit filename="utils/Utils.h" />
 		<Unit filename="utils/VecUtils.cpp" />
 		<Unit filename="utils/VecUtils.h" />
-		<Unit filename="world/GameWorld.cpp" />
-		<Unit filename="world/GameWorld.h" />
-		<Unit filename="world/chunk/BaseChunk.cpp" />
-		<Unit filename="world/chunk/BaseChunk.h" />
+		<Unit filename="world/World.cpp" />
+		<Unit filename="world/World.h" />
+		<Unit filename="world/chunk/Chunk.cpp" />
+		<Unit filename="world/chunk/Chunk.h" />
 		<Unit filename="world/generation/WorldGenerator.cpp" />
 		<Unit filename="world/generation/WorldGenerator.h" />
 		<Extensions>

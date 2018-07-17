@@ -1,9 +1,9 @@
 #include "WorldGenerator.h"
-#include "../GameWorld.h"
-#include "../chunk/BaseChunk.h"
+#include "../World.h"
+#include "../chunk/Chunk.h"
 #include "../../utils/NoiseGenerator.h"
 
-WorldGenerator::WorldGenerator(int _seed,GameWorld* _mWorld):seed(_seed),mWorld(_mWorld)
+WorldGenerator::WorldGenerator(int _seed,World* _mWorld):seed(_seed),mWorld(_mWorld)
 {
     heightMapGenerator=new NoiseGenerator(_seed);
     heightMapGenerator->setParameters(NoiseParameters{5,100,555,10,0.5});
@@ -15,7 +15,7 @@ WorldGenerator::~WorldGenerator()
 
 }
 
-void WorldGenerator::genChunk(BaseChunk*mchunk)
+void WorldGenerator::genChunk(Chunk*mchunk)
 {
     glm::ivec3 chunkpos=mchunk->pos;
     for(int i=0; i<CHUNK_SIZE; i++)

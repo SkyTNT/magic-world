@@ -1,7 +1,7 @@
 #include "CubeBlockShape.h"
 #include "../../client/render/RendererContext.h"
-#include "../../world/GameWorld.h"
-#include "../../world/chunk/BaseChunk.h"
+#include "../../world/World.h"
+#include "../../world/chunk/Chunk.h"
 #include "../../client/render/objectgroup/BlockObjectGroup.h"
 #include "../../utils/Utils.h"
 #include "../../main.h"
@@ -21,9 +21,9 @@ void CubeBlockShape::init()
 
 }
 
-void CubeBlockShape::addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData)
+void CubeBlockShape::addToWorld(World *world,glm::ivec3 bpos,glm::vec3 pos,BlockIdAndData idAndData)
 {
-    BaseChunk* chunk=world->getChunk(bpos);
+    Chunk* chunk=world->getChunk(bpos);
     if(chunk==NULL)
     {
         LOG_I("chunk null when adding shape");

@@ -2,9 +2,9 @@
 #include "../gui.h"
 #include "../../GameClient.h"
 #include "../guiElement/TButton.h"
-#include "../../../world/GameWorld.h"
+#include "../../../world/World.h"
 #include "../../../world/generation/WorldGenerator.h"
-#include "../../../world/chunk/BaseChunk.h"
+#include "../../../world/chunk/Chunk.h"
 #include "../../../utils/Utils.h"
 #include "../../render/RendererContext.h"
 #include <thread>
@@ -48,7 +48,7 @@ void PlayScreen::guiElementCallBack(int msg,GuiElement*mguielement)
     {
         if(mguielement==mPlayButton)
         {
-            GameWorld*mWorld=new GameWorld(client);
+            World*mWorld=new World(client);
             mWorld->init(time(0));
             mWorld->mainPlayer=client->getMainPlayer();
             client->setWorld(mWorld);

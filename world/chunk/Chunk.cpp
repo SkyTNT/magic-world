@@ -1,5 +1,5 @@
-#include "BaseChunk.h"
-#include "../GameWorld.h"
+#include "Chunk.h"
+#include "../World.h"
 #include "../../block/blockshape/BlockShape.h"
 #include "../../client/render/objectgroup/BlockObjectGroup.h"
 #include <string.h>
@@ -7,12 +7,12 @@
 #include "../../utils/Utils.h"
 #include "../../thread/ThreadPool.h"
 
-BaseChunk::ChunkSection::ChunkSection()
+Chunk::ChunkSection::ChunkSection()
 {
     memset(mBlocks,0,sizeof(mBlocks));
 }
 
-BaseChunk::BaseChunk(GameWorld* _world)
+Chunk::Chunk(World* _world)
 {
     world=_world;
     blockObjGroup=new BlockObjectGroup();
@@ -20,7 +20,7 @@ BaseChunk::BaseChunk(GameWorld* _world)
     prepareUpdate=new std::queue<glm::ivec3>();
     updateing=false;
 }
-BaseChunk::~BaseChunk()
+Chunk::~Chunk()
 {
     //std::unique_lock<std::mutex> lock(mMutex);
     //cond.wait(lock,[this]{return !updateing;});
@@ -34,13 +34,13 @@ BaseChunk::~BaseChunk()
     delete prepareUpdate;
 }
 
-void BaseChunk::setPos(glm::ivec3 _pos)
+void Chunk::setPos(glm::ivec3 _pos)
 {
     pos=_pos;
     blockObjGroup->position=_pos;
 }
 
-void BaseChunk::setBlock(glm::ivec3 bpos,int id,int data)
+void Chunk::setBlock(glm::ivec3 bpos,int id,int data)
 {
     glm::ivec3 dpos=bpos-pos;
     BlockIdAndData idanddata= {id,data};
@@ -65,12 +65,12 @@ void BaseChunk::setBlock(glm::ivec3 bpos,int id,int data)
 
 }
 
-void BaseChunk::setBlock(int x,int y,int z,int id,int data)
+void Chunk::setBlock(int x,int y,int z,int id,int data)
 {
     setBlock(glm::ivec3(x,y,z),id,data);
 }
 
-BlockIdAndData BaseChunk::getBlock(glm::ivec3 bpos)
+BlockIdAndData Chunk::getBlock(glm::ivec3 bpos)
 {
     glm::ivec3 dpos=bpos-pos;
     for(auto it=chunkSections.begin(); it!=chunkSections.end(); it++)
@@ -84,14 +84,14 @@ BlockIdAndData BaseChunk::getBlock(glm::ivec3 bpos)
     return BlockIdAndData{0,0};
 }
 
-void BaseChunk::updateBlock(glm::ivec3 bpos)
+void Chunk::updateBlock(glm::ivec3 bpos)
 {
     prepareUpdate->push(bpos);
 }
 
 
 
-void BaseChunk::tick(float dtime)
+void Chunk::tick(float dtime)
 {
     if(!prepareUpdate->empty()&&!updateing)
     {

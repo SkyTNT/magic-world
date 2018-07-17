@@ -3,7 +3,7 @@
 #include "../guiElement/TButton.h"
 #include "../../../utils/Utils.h"
 #include "../gui.h"
-#include "../../../world/GameWorld.h"
+#include "../../../world/World.h"
 
 PauseScreen::PauseScreen(GameClient*gc):BaseScreen(gc)
 {

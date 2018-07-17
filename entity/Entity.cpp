@@ -4,6 +4,7 @@ Entity::Entity()
 {
     pos=glm::vec3(0,0,0);
     headRotate=glm::vec2(0,0);
+    world=NULL;
 }
 
 Entity::~Entity()
@@ -59,4 +60,14 @@ glm::vec3 Entity::getPos()
 glm::vec2 Entity::getHeadRotate()
 {
     return headRotate;
+}
+
+World* Entity::getRegion()
+{
+    return world;
+}
+
+void Entity::setRegion(World *_world)
+{
+    world=_world;
 }

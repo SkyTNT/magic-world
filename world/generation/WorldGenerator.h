@@ -1,18 +1,18 @@
 #pragma once
 
-class GameWorld;
-class BaseChunk;
+class World;
+class Chunk;
 class NoiseGenerator;
 
 class WorldGenerator
 {
 public:
     int seed;
-    GameWorld* mWorld;
+    World* mWorld;
     NoiseGenerator*heightMapGenerator;
-    WorldGenerator(int _seed,GameWorld* _mWorld);
+    WorldGenerator(int _seed,World* _mWorld);
     virtual ~WorldGenerator();
 
-    virtual void genChunk(BaseChunk*mchunk);
+    virtual void genChunk(Chunk*mchunk);
 
 };

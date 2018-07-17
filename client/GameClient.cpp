@@ -1,7 +1,7 @@
 #include "GameClient.h"
 #include "gui/gui.h"
 #include "../entity/player/Player.h"
-#include "../world/GameWorld.h"
+#include "../world/World.h"
 #include "render/GameRenderer.h"
 #include "../utils/Utils.h"
 #include "gui/screen/BaseScreen.h"
@@ -67,10 +67,11 @@ void GameClient::setDC(HDC _hdc)
     hdc=_hdc;
 }
 
-void GameClient::setWorld(GameWorld*_mWorld)
+void GameClient::setWorld(World*_mWorld)
 {
     mWorld=_mWorld;
     mGameRenderer->mWorldRenderer->setWorld(mWorld);
+    mPlayer->setRegion(mWorld);
 }
 
 void GameClient::setMousePos(float x,float y)
@@ -107,7 +108,7 @@ Player* GameClient::getMainPlayer()
     return mPlayer;
 }
 
-GameWorld* GameClient::getGameWorld()
+World* GameClient::getGameWorld()
 {
     return mWorld;
 }
