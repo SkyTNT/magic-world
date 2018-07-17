@@ -33,7 +33,7 @@ BufferID ObjectGroup::allocateBuffer(size_t vertexCount)
 {
     if(mVertexCount+vertexCount>mVertexCapacity)
     {
-        int result=newCapacity(mVertexCount+vertexCount+16*16*36);
+        int result=newCapacity(mVertexCount+vertexCount+2*16*16*36);
         if(result<0)LOG_I("allocate buffer err:"+i2s(result));
     }
 

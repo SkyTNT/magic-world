@@ -97,5 +97,4 @@ void WorldRenderer::render()
         glDrawArrays(GL_TRIANGLES,0,mchunk->blockObjGroup->mVertexCount);
         glBindVertexArray(0);
     }
-
 }

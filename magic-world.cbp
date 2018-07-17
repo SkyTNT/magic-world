@@ -144,6 +144,8 @@
 		</Unit>
 		<Unit filename="stb/stb_voxel_render.h" />
 		<Unit filename="stb/stretchy_buffer.h" />
+		<Unit filename="thread/ThreadPool.cpp" />
+		<Unit filename="thread/ThreadPool.h" />
 		<Unit filename="utils/NoiseGenerator.cpp" />
 		<Unit filename="utils/NoiseGenerator.h" />
 		<Unit filename="utils/Utils.cpp" />

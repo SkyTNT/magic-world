@@ -9,6 +9,7 @@ class Player;
 class BaseChunk;
 class WorldGenerator;
 class GameClient;
+class ThreadPool;
 struct BlockIdAndData;
 
 class GameWorld
@@ -18,6 +19,7 @@ public:
     BaseChunk *mChunks[MAX_CHUNK*MAX_CHUNK];
     WorldGenerator *worldgenerator;
     unsigned int centerChunk;
+    ThreadPool*worldThreadPool;
 
     GameWorld(GameClient* _client);
     virtual ~GameWorld();

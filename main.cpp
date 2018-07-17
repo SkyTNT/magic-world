@@ -1,13 +1,28 @@
 #include "main.h"
+#include"client/GameClient.h"
 #include "GL/gl3w.h"
 #include <GL/wglext.h>
 #include <Gl/gl.h>
 #include <GL/glext.h>
 #include "utils/Utils.h"
 
+#include <queue>
+#include <mutex>
+
+std::queue<std::function<void()> > mainThreadTasks;
+std::mutex mainThreadMutex;
+
 GameClient*mGameClient=NULL;
 HDC hdc;
 HGLRC hrc;
+
+void commitMainThreadTask(std::function<void()> _task)
+{
+    {
+        std::lock_guard<std::mutex> lock(mainThreadMutex);
+        mainThreadTasks.push(_task);
+    }
+}
 
 bool InitializeOpenGL(HWND hwnd)
 {
@@ -240,12 +255,24 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         if(mGameClient!=NULL)
             mGameClient->tick();
 
+        while(true)
+        {
+            std::function<void()> tfunc;
+            {
+                std::lock_guard<std::mutex> lock(mainThreadMutex);
+                if(mainThreadTasks.empty())break;
+                tfunc=mainThreadTasks.front();
+                mainThreadTasks.pop();
+            }
+            tfunc();
+        }
     }
 
     if(mGameClient!=NULL)
     {
         delete mGameClient;
     }
+    std::queue<std::function<void()> >().swap(mainThreadTasks);
     LOG_FINIT();
     return Msg.wParam;
 }

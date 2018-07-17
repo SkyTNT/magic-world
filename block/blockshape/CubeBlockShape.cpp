@@ -4,6 +4,8 @@
 #include "../../world/chunk/BaseChunk.h"
 #include "../../client/render/objectgroup/BlockObjectGroup.h"
 #include "../../utils/Utils.h"
+#include "../../main.h"
+
 CubeBlockShape::CubeBlockShape():BlockShape()
 {
     vertices=NULL;
@@ -34,62 +36,87 @@ void CubeBlockShape::addToWorld(GameWorld *world,glm::ivec3 bpos,glm::vec3 pos,B
     Texture *tex=Block::mBlocks[idAndData.id]->getTexture(0);
     if(world->getBlock(bpos+glm::ivec3{0,0,-1}).id!=idAndData.id)
     {
-        objGroup->addFace(0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,
-                          0.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 0.0f,
-                          1.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 1.0f,tex);
-        objGroup->addFace(1.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 1.0f,
-                          1.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,
-                          0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,tex);
+        commitMainThreadTask([objGroup,offset,tex]
+        {
+            objGroup->addFace(0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,
+                              0.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 0.0f,
+                              1.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 1.0f,tex);
+            objGroup->addFace(1.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 1.0f,
+                              1.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,
+                              0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,tex);
+        });
+
     }
 
     if(world->getBlock(bpos+glm::ivec3{0,0,1}).id!=idAndData.id)
     {
-        objGroup->addFace(0.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,
-                          1.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 1.0f, 0.0f,
-                          1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 1.0f,tex);
-        objGroup->addFace(1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 1.0f,
-                          0.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,
-                          0.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,tex);
+        commitMainThreadTask([objGroup,offset,tex]
+        {
+            objGroup->addFace(0.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,
+                              1.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 1.0f, 0.0f,
+                              1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 1.0f,tex);
+            objGroup->addFace(1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 1.0f,
+                              0.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,
+                              0.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,tex);
+        });
+
     }
 
     if(world->getBlock(bpos+glm::ivec3{-1,0,0}).id!=idAndData.id)
     {
-        objGroup->addFace(0.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 1.0f,
-                          0.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,
-                          0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 0.0f, 0.0f,tex);
-        objGroup->addFace(0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 0.0f, 0.0f,
-                          0.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,
-                          0.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 1.0f,tex);
+        commitMainThreadTask([objGroup,offset,tex]
+        {
+            objGroup->addFace(0.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 1.0f,
+                              0.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,
+                              0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 0.0f, 0.0f,tex);
+            objGroup->addFace(0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 0.0f, 0.0f,
+                              0.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,
+                              0.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 1.0f,tex);
+        });
+
     }
 
     if(world->getBlock(bpos+glm::ivec3{1,0,0}).id!=idAndData.id)
     {
-        objGroup->addFace(1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,
-                          1.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,
-                          1.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,tex);
-        objGroup->addFace(1.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,
-                          1.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,
-                          1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,tex);
+        commitMainThreadTask([objGroup,offset,tex]
+        {
+            objGroup->addFace(1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,
+                              1.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,
+                              1.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,tex);
+            objGroup->addFace(1.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,
+                              1.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,
+                              1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,tex);
+        });
+
     }
 
     if(world->getBlock(bpos+glm::ivec3{0,-1,0}).id!=idAndData.id)
     {
-        objGroup->addFace(0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,
-                          1.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,
-                          1.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,tex);
-        objGroup->addFace(1.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,
-                          0.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,
-                          0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,tex);
+        commitMainThreadTask([objGroup,offset,tex]
+        {
+            objGroup->addFace(0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,
+                              1.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 0.0f,
+                              1.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,tex);
+            objGroup->addFace(1.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,
+                              0.0f+offset.x, 0.0f+offset.y, 1.0f+offset.z, 0.0f, 1.0f,
+                              0.0f+offset.x, 0.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,tex);
+        });
+
     }
 
     if(world->getBlock(bpos+glm::ivec3{0,1,0}).id!=idAndData.id)
     {
-        objGroup->addFace(0.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 1.0f,
-                          0.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,
-                          1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 0.0f,tex);
-        objGroup->addFace(1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 0.0f,
-                          1.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,
-                          0.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 1.0f,tex);
+        commitMainThreadTask([objGroup,offset,tex]
+        {
+            objGroup->addFace(0.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 1.0f,
+                              0.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 0.0f, 0.0f,
+                              1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 0.0f,tex);
+            objGroup->addFace(1.0f+offset.x, 1.0f+offset.y, 1.0f+offset.z, 1.0f, 0.0f,
+                              1.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 1.0f, 1.0f,
+                              0.0f+offset.x, 1.0f+offset.y, 0.0f+offset.z, 0.0f, 1.0f,tex);
+        });
+
     }
+
 }
 

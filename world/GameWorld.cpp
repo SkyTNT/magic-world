@@ -5,12 +5,14 @@
 #include "chunk/BaseChunk.h"
 #include "generation/WorldGenerator.h"
 #include "../block/BlockIdAndData.h"
+#include "../thread/ThreadPool.h"
 
 GameWorld::GameWorld(GameClient* _client)
 {
     client=_client;
     memset(mChunks,0,sizeof(mChunks));
     worldgenerator=NULL;
+    worldThreadPool=new ThreadPool(2);
 }
 
 GameWorld::~GameWorld()
@@ -22,10 +24,12 @@ GameWorld::~GameWorld()
     }
     if(worldgenerator!=NULL)
         delete worldgenerator;
+        delete worldThreadPool;
 }
 
 void GameWorld::init(int _seed)
 {
+    worldThreadPool->init();
     worldgenerator=new WorldGenerator(_seed,this);
     for(unsigned int i=0; i<MAX_CHUNK; i++)
         for(unsigned int j=0; j<MAX_CHUNK; j++)
@@ -41,12 +45,6 @@ void GameWorld::init(int _seed)
 int offs=0;
 void GameWorld::tick(float dtime)
 {
-    for(BaseChunk*mchunk:mChunks)
-    {
-        if(mchunk!=NULL)
-            mchunk->tick(dtime);
-    }
-
     glm::vec3 playerpos=mainPlayer->getPos(),centerpos=mChunks[centerChunk]->pos;
     if(playerpos.x>centerpos.x+CHUNK_SIZE)
     {
@@ -152,6 +150,12 @@ void GameWorld::tick(float dtime)
             }
 
     }
+
+    for(BaseChunk*mchunk:mChunks)
+    {
+        if(mchunk!=NULL)
+            mchunk->tick(dtime);
+    }
 }
 
 BaseChunk* GameWorld::getChunk(glm::vec3 pos)
@@ -185,7 +189,8 @@ BaseChunk* GameWorld::getChunk(glm::ivec3 pos)
 BlockIdAndData GameWorld::getBlock(glm::ivec3 pos)
 {
     BaseChunk*mchunk=getChunk(pos);
-    if(mchunk==NULL)return {0,0};
+    if(mchunk==NULL)
+    return {0,0};
     return mchunk->getBlock(pos);
 }
 

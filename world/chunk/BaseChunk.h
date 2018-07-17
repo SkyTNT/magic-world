@@ -3,6 +3,8 @@
 #include <queue>
 #include <vector>
 #include <glm/vec3.hpp>
+#include <mutex>
+#include <condition_variable>
 #include "../../utils/VecUtils.h"
 #include "../../block/Block.h"
 
@@ -16,15 +18,16 @@ class BaseChunk
 {
 private:
 
-    struct ChunkSection
+    class ChunkSection
     {
-        int height;
+    public:
         BlockIdAndData mBlocks[CHUNK_SIZE][CHUNK_SIZE];
+        ChunkSection();
     };
 
 public:
     glm::ivec3 pos;
-    std::map<glm::ivec3,BlockIdAndData,ivec3cmp>mBlocks;
+    std::map<int ,ChunkSection*>chunkSections;
     BlockObjectGroup*blockObjGroup;
 
     BaseChunk(GameWorld* _world);
@@ -39,7 +42,9 @@ public:
     void tick(float dtime);
 
 private:
-
+    //std::mutex mMutex;
+    //std::condition_variable cond;
+    bool updateing;
     GameWorld* world;
     std::queue<glm::ivec3>*prepareUpdate;
 

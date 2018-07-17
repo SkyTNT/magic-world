@@ -1,9 +1,6 @@
 #pragma once
 #define _USE_MATH_DEFINES
 
-#include<fstream>
-#include<sstream>
-#include<vector>
+#include <functional>
 
-#include"client/GameClient.h"
-
+void commitMainThreadTask(std::function<void()> _task);
