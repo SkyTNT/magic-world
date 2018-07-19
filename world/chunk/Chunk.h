@@ -28,6 +28,7 @@ private:
 public:
     glm::ivec3 pos;
     std::map<int ,ChunkSection*>chunkSections;
+    std::mutex mMutex;
     BlockObjectGroup*blockObjGroup;
 
     Chunk(World* _world);
@@ -38,14 +39,13 @@ public:
     void setBlock(int x,int y,int z,int id,int data);
     BlockIdAndData getBlock(glm::ivec3 bpos);
     void updateBlock(glm::ivec3 bpos);
+    void updateChunk();
 
     void tick(float dtime);
 
 private:
-    //std::mutex mMutex;
-    //std::condition_variable cond;
-    bool updateing;
     World* world;
+    bool updateing;
     std::queue<glm::ivec3>*prepareUpdate;
 
 };

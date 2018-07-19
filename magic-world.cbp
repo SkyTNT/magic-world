@@ -156,6 +156,8 @@
 		<Unit filename="world/World.h" />
 		<Unit filename="world/chunk/Chunk.cpp" />
 		<Unit filename="world/chunk/Chunk.h" />
+		<Unit filename="world/chunk/ChunkManager.cpp" />
+		<Unit filename="world/chunk/ChunkManager.h" />
 		<Unit filename="world/generation/WorldGenerator.cpp" />
 		<Unit filename="world/generation/WorldGenerator.h" />
 		<Extensions>

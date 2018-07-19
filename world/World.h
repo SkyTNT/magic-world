@@ -2,23 +2,21 @@
 
 #include <vector>
 #include <glm/vec3.hpp>
-
-#define MAX_CHUNK 16
+#include "../block/BlockIdAndData.h"
 
 class Player;
-class Chunk;
+class ChunkManager;
 class WorldGenerator;
 class GameClient;
 class ThreadPool;
-struct BlockIdAndData;
+class Chunk;
 
 class World
 {
 public:
     Player*mainPlayer;
-    Chunk *mChunks[MAX_CHUNK*MAX_CHUNK];
+    ChunkManager*chunkmanager;
     WorldGenerator *worldgenerator;
-    unsigned int centerChunk;
     ThreadPool*worldThreadPool;
 
     World(GameClient* _client);
@@ -31,6 +29,7 @@ public:
     Chunk* getChunk(glm::ivec3 pos);
     BlockIdAndData getBlock(glm::ivec3 pos);
     void setBlock(glm::ivec3 pos,BlockIdAndData idanddata);
+
 private:
     GameClient* client;
 };

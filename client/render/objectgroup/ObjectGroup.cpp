@@ -79,7 +79,7 @@ int ObjectGroup::useTexture(Buffer target,Texture* tex)
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
     if(vboptr==0)return -1;
-    for(int i=0;i<target.vertexCount;i++)
+    for(unsigned int i=0;i<target.vertexCount;i++)
     {
         glm::vec2* uv=(glm::vec2*)(vboptr+(target.startVertex+i)*STEP_LONG+6*sizeof(float));
         float width=tex->u2-tex->u1;

@@ -18,12 +18,9 @@ Chunk::Chunk(World* _world)
     blockObjGroup=new BlockObjectGroup();
     blockObjGroup->init();
     prepareUpdate=new std::queue<glm::ivec3>();
-    updateing=false;
 }
 Chunk::~Chunk()
 {
-    //std::unique_lock<std::mutex> lock(mMutex);
-    //cond.wait(lock,[this]{return !updateing;});
     delete blockObjGroup;
     for(auto it=chunkSections.begin(); it!=chunkSections.end(); it++)
     {
@@ -42,27 +39,22 @@ void Chunk::setPos(glm::ivec3 _pos)
 
 void Chunk::setBlock(glm::ivec3 bpos,int id,int data)
 {
+    std::lock_guard<std::mutex> lock(mMutex);
     glm::ivec3 dpos=bpos-pos;
     BlockIdAndData idanddata= {id,data};
-
-    for(auto it=chunkSections.begin(); it!=chunkSections.end(); it++)
+    ChunkSection *cs;
+    auto it=chunkSections.find(dpos.y);
+    if(it==chunkSections.end())
     {
-        ChunkSection *cs=it->second;
-        if(cs==NULL)
-            continue;
-        if(it->first==dpos.y)
-        {
-            cs->mBlocks[dpos.x][dpos.z]=idanddata;
-            updateBlock(bpos);
-            return;
-        }
+        cs=new ChunkSection();
+        cs->mBlocks[dpos.x][dpos.z]=idanddata;
+        chunkSections[dpos.y]=cs;
+        updateBlock(bpos);
+        return;
     }
-    ChunkSection *cs=new ChunkSection();
+    cs=it->second;
     cs->mBlocks[dpos.x][dpos.z]=idanddata;
-    chunkSections[dpos.y]=cs;
-
     updateBlock(bpos);
-
 }
 
 void Chunk::setBlock(int x,int y,int z,int id,int data)
@@ -73,15 +65,13 @@ void Chunk::setBlock(int x,int y,int z,int id,int data)
 BlockIdAndData Chunk::getBlock(glm::ivec3 bpos)
 {
     glm::ivec3 dpos=bpos-pos;
-    for(auto it=chunkSections.begin(); it!=chunkSections.end(); it++)
+    auto it=chunkSections.find(dpos.y);
+    if(it==chunkSections.end())
     {
-        ChunkSection *cs=it->second;
-        if(cs==NULL)
-            continue;
-        if(it->first==dpos.y)
-            return cs->mBlocks[dpos.x][dpos.z];
+        return BlockIdAndData{0,0};
     }
-    return BlockIdAndData{0,0};
+    return it->second->mBlocks[dpos.x][dpos.z];
+
 }
 
 void Chunk::updateBlock(glm::ivec3 bpos)
@@ -89,29 +79,27 @@ void Chunk::updateBlock(glm::ivec3 bpos)
     prepareUpdate->push(bpos);
 }
 
+void Chunk::updateChunk()
+{
+    std::lock_guard<std::mutex> lock(mMutex);
+    if(!prepareUpdate->empty())
+    {
+        while(!prepareUpdate->empty())
+        {
 
+            glm::ivec3 ubpos=prepareUpdate->front();
+            prepareUpdate->pop();
+            BlockIdAndData idanddata=getBlock(ubpos);
+            if(idanddata.id==0)
+                continue;
+            Block::mBlocks[idanddata.id]->getShape()->addToWorld(world,ubpos,glm::vec3(ubpos),idanddata);
+        }
+        delete prepareUpdate;
+        prepareUpdate=new std::queue<glm::ivec3>();
+    }
+}
 
 void Chunk::tick(float dtime)
 {
-    if(!prepareUpdate->empty()&&!updateing)
-    {
-        updateing=true;
-        world->worldThreadPool->commit([this]
-        {
-            while(!prepareUpdate->empty())
-            {
 
-                glm::ivec3 ubpos=prepareUpdate->front();
-                prepareUpdate->pop();
-                BlockIdAndData idanddata=getBlock(ubpos);
-                if(idanddata.id==0)
-                    continue;
-                Block::mBlocks[idanddata.id]->getShape()->addToWorld(world,ubpos,glm::vec3(ubpos),idanddata);
-            }
-            delete prepareUpdate;
-            prepareUpdate=new std::queue<glm::ivec3>();
-            updateing=false;
-            //cond.notify_all();
-        });
-    }
 }

@@ -32,12 +32,12 @@ void GamePlayScreen::init()
 {
     setBackGroundColor(glm::vec4(0,0,0,0));
     World*mWorld=client->getGameWorld();
-    client->getMainPlayer()->setPos(glm::vec3(mWorld->mChunks[mWorld->centerChunk]->pos)+glm::vec3(0,5,0));
+    client->getMainPlayer()->setPos(glm::vec3(0,50,0));
     client->getMainPlayer()->setHeadRotate(0,0);
     client->setMousePos(client->width/2,client->height/2);
     client->setMouseVisibility(false);
 }
-#define PLAYER_SPEED 20.0f
+#define PLAYER_SPEED 100.0f
 void GamePlayScreen::tick(float dtime)
 {
     elapsedTime+=dtime;

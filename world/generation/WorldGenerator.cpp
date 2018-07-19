@@ -6,7 +6,7 @@
 WorldGenerator::WorldGenerator(int _seed,World* _mWorld):seed(_seed),mWorld(_mWorld)
 {
     heightMapGenerator=new NoiseGenerator(_seed);
-    heightMapGenerator->setParameters(NoiseParameters{5,100,555,10,0.5});
+    heightMapGenerator->setParameters(NoiseParameters{5,30,555,10,0.5});
 
 }
 
@@ -22,7 +22,7 @@ void WorldGenerator::genChunk(Chunk*mchunk)
     {
         for(int j=0; j<CHUNK_SIZE; j++)
         {
-            #define getheight(a,b) heightMapGenerator->getHeight(b+chunkpos.x+INT_MAX/2,a+chunkpos.z+INT_MAX/2)-100
+            #define getheight(a,b) heightMapGenerator->getHeight(b+chunkpos.x+INT_MAX/2,a+chunkpos.z+INT_MAX/2)
             int height=getheight(i,j);
             for(int h=0; h<height; h++)
             mchunk->setBlock(chunkpos+glm::ivec3(j,h,i),1,0);

@@ -4,11 +4,13 @@
 #include "../../entity/player/Player.h"
 #include "../../world/World.h"
 #include "../../world/chunk/Chunk.h"
+#include "../../world/chunk/ChunkManager.h"
 #include "../../utils/Utils.h"
 #include "../../block/blockshape/BlockShape.h"
 #include "../../block/Block.h"
 #include "objectgroup/BlockObjectGroup.h"
 #include <math.h>
+#include <mutex>
 
 #define M_PI  3.14159265358979323846264f
 
@@ -80,6 +82,8 @@ void WorldRenderer::render()
 {
     if(mWorld==NULL)
         return;
+    //std::lock_guard<std::mutex> lock(mWorld->mMutex);
+
     glUseProgram(blockShader);
     glUniformMatrix4fv(glGetUniformLocation(blockShader, "view"), 1, GL_FALSE, glm::value_ptr(context->view));
     glUniformMatrix4fv(glGetUniformLocation(blockShader, "proj"), 1, GL_FALSE, glm::value_ptr(context->proj));
@@ -88,8 +92,10 @@ void WorldRenderer::render()
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D,Block::blockTextures->texid);
     glUniform1i(glGetUniformLocation(blockShader, "mTexture"), 0);
-    for(Chunk*mchunk:mWorld->mChunks)
+    for(auto it=mWorld->chunkmanager->mChunks.begin();it!=mWorld->chunkmanager->mChunks.end();it++)
     {
+        Chunk*mchunk=it->second;
+        if(mchunk==NULL)continue;
         glBindVertexArray(mchunk->blockObjGroup->vao);
         glm::mat4 model;
         model = glm::translate(model,glm::vec3(mchunk->blockObjGroup->position));
