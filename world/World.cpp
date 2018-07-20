@@ -1,10 +1,10 @@
 #include "World.h"
 #include "../client/GameClient.h"
-#include "../entity/player/Player.h"
+#include "entity/player/Player.h"
 #include "../utils/Utils.h"
 #include "chunk/Chunk.h"
 #include "generation/WorldGenerator.h"
-#include "../block/BlockIdAndData.h"
+#include "block/BlockIdAndData.h"
 #include "../thread/ThreadPool.h"
 #include "chunk/ChunkManager.h"
 

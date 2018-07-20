@@ -2,7 +2,7 @@
 #include "../../GameClient.h"
 #include "../guiElement/TButton.h"
 #include "../../../utils/Utils.h"
-#include "../../../entity/player/Player.h"
+#include "../../../world/entity/player/Player.h"
 #include "../gui.h"
 #include "../../../world/World.h"
 #include "../../../world/chunk/Chunk.h"
@@ -37,7 +37,7 @@ void GamePlayScreen::init()
     client->setMousePos(client->width/2,client->height/2);
     client->setMouseVisibility(false);
 }
-#define PLAYER_SPEED 100.0f
+#define PLAYER_SPEED 20.0f
 void GamePlayScreen::tick(float dtime)
 {
     elapsedTime+=dtime;
@@ -140,12 +140,12 @@ void GamePlayScreen::onMouse(int msg,float mx,float my)
 
         break;
     }
-    /*case EVENT_MOUSE_LDOWN:
+    case EVENT_MOUSE_LDOWN:
     {
         Player*mplayer=client->getMainPlayer();
         mplayer->placeBlock(glm::ivec3(mplayer->getPos()),{1,0});
         break;
-    }*/
+    }
 
     }
 

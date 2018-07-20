@@ -6,7 +6,7 @@
 WorldGenerator::WorldGenerator(int _seed,World* _mWorld):seed(_seed),mWorld(_mWorld)
 {
     heightMapGenerator=new NoiseGenerator(_seed);
-    heightMapGenerator->setParameters(NoiseParameters{5,30,555,10,0.5});
+    heightMapGenerator->setParameters(NoiseParameters{5,50,555,15,0.9});
 
 }
 

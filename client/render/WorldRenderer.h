@@ -24,4 +24,6 @@ public:
     void setLookAt(glm::vec3 epos,glm::vec3 cpos,glm::vec3 upos);
     void tick(float dtime);
     void render();
+private:
+    glm::vec3 eyepos;
 };

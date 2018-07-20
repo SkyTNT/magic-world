@@ -1,13 +1,13 @@
 #include "GameClient.h"
 #include "gui/gui.h"
-#include "../entity/player/Player.h"
+#include "../world/entity/player/Player.h"
 #include "../world/World.h"
 #include "render/GameRenderer.h"
 #include "../utils/Utils.h"
 #include "gui/screen/BaseScreen.h"
 #include "gui/screen/PlayScreen.h"
-#include "../block/Block.h"
-#include "../block/blockshape/BlockShape.h"
+#include "../world/block/Block.h"
+#include "../world/block/blockshape/BlockShape.h"
 #include <math.h>
 #include <stdlib.h>
 #define VKW(a) a-32

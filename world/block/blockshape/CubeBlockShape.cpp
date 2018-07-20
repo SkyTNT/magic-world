@@ -1,10 +1,11 @@
 #include "CubeBlockShape.h"
-#include "../../client/render/RendererContext.h"
-#include "../../world/World.h"
-#include "../../world/chunk/Chunk.h"
-#include "../../client/render/objectgroup/BlockObjectGroup.h"
-#include "../../utils/Utils.h"
-#include "../../main.h"
+#include "../../../client/render/RendererContext.h"
+#include "../../World.h"
+#include "../../chunk/Chunk.h"
+#include "../Block.h"
+#include "../../../client/render/objectgroup/BlockObjectGroup.h"
+#include "../../../utils/Utils.h"
+#include "../../../main.h"
 
 CubeBlockShape::CubeBlockShape():BlockShape()
 {

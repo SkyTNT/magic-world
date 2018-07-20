@@ -1,8 +1,8 @@
 #include "Block.h"
 #include "Dirt.h"
 #include "blockshape/BlockShape.h"
-#include "../client/render/Texture.h"
-#include "../client/render/Textures.h"
+#include "../../client/render/Texture.h"
+#include "../../client/render/Textures.h"
 
 Block* Block::mBlocks[1024];
 Texture* Block::blockTextures=0;

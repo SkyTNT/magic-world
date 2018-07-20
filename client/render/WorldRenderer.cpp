@@ -1,13 +1,13 @@
 #include "WorldRenderer.h"
 
 #include "../GameClient.h"
-#include "../../entity/player/Player.h"
+#include "../../world/entity/player/Player.h"
 #include "../../world/World.h"
 #include "../../world/chunk/Chunk.h"
 #include "../../world/chunk/ChunkManager.h"
 #include "../../utils/Utils.h"
-#include "../../block/blockshape/BlockShape.h"
-#include "../../block/Block.h"
+#include "../../world/block/blockshape/BlockShape.h"
+#include "../../world/block/Block.h"
 #include "objectgroup/BlockObjectGroup.h"
 #include <math.h>
 #include <mutex>
@@ -45,7 +45,7 @@ void WorldRenderer::init()
     RendererContext::linkShader(&blockShader,cvs,cfs);
 
     context->light0.setLightColor(glm::vec3(1,1,1));
-    context->light0.setPos(glm::vec3(250,180,250));
+    context->light0.setPos(glm::vec3(0,256,0));
 
     mPlayer=client->getMainPlayer();
     bs->init();
@@ -58,7 +58,7 @@ void WorldRenderer::tick(float dtime)
     glm::vec3 epos=mPlayer->getPos();
     glm::vec2 hr=mPlayer->getHeadRotate();
     setLookAt(epos,glm::vec3(epos.x+cos(hr.y)*sin(hr.x),epos.y+sin(hr.y),epos.z+cos(hr.y)*cos(hr.x)),glm::vec3(0,1,0));
-    context->light0.setPos(epos);
+    //context->light0.setPos(epos);
 }
 
 void WorldRenderer::setWorld(World* _mWorld)
@@ -75,6 +75,7 @@ void WorldRenderer::setwidthheight(int _width,int _height)
 
 void WorldRenderer::setLookAt(glm::vec3 epos,glm::vec3 cpos,glm::vec3 upos)
 {
+    eyepos=epos;
     context->view = glm::lookAt(epos,cpos,upos);
 }
 
@@ -89,6 +90,7 @@ void WorldRenderer::render()
     glUniformMatrix4fv(glGetUniformLocation(blockShader, "proj"), 1, GL_FALSE, glm::value_ptr(context->proj));
     glUniform3fv(glGetUniformLocation(blockShader, "lightColor"), 1,glm::value_ptr(context->light0.color));
     glUniform3fv(glGetUniformLocation(blockShader, "lightPos"), 1,glm::value_ptr(context->light0.pos));
+    glUniform3fv(glGetUniformLocation(blockShader, "viewPos"), 1,glm::value_ptr(eyepos));
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D,Block::blockTextures->texid);
     glUniform1i(glGetUniformLocation(blockShader, "mTexture"), 0);

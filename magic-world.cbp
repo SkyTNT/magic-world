@@ -65,15 +65,6 @@
 			<Add library="kernel32" />
 			<Add library="comctl32" />
 		</Linker>
-		<Unit filename="block/Block.cpp" />
-		<Unit filename="block/Block.h" />
-		<Unit filename="block/BlockIdAndData.h" />
-		<Unit filename="block/Dirt.cpp" />
-		<Unit filename="block/Dirt.h" />
-		<Unit filename="block/blockshape/BlockShape.cpp" />
-		<Unit filename="block/blockshape/BlockShape.h" />
-		<Unit filename="block/blockshape/CubeBlockShape.cpp" />
-		<Unit filename="block/blockshape/CubeBlockShape.h" />
 		<Unit filename="client/GameClient.cpp" />
 		<Unit filename="client/GameClient.h" />
 		<Unit filename="client/gui/gui.cpp" />
@@ -110,10 +101,6 @@
 		<Unit filename="client/render/objectgroup/BlockObjectGroup.h" />
 		<Unit filename="client/render/objectgroup/ObjectGroup.cpp" />
 		<Unit filename="client/render/objectgroup/ObjectGroup.h" />
-		<Unit filename="entity/Entity.cpp" />
-		<Unit filename="entity/Entity.h" />
-		<Unit filename="entity/player/Player.cpp" />
-		<Unit filename="entity/player/Player.h" />
 		<Unit filename="external/gl3w/src/gl3w.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -154,10 +141,23 @@
 		<Unit filename="utils/VecUtils.h" />
 		<Unit filename="world/World.cpp" />
 		<Unit filename="world/World.h" />
+		<Unit filename="world/block/Block.cpp" />
+		<Unit filename="world/block/Block.h" />
+		<Unit filename="world/block/BlockIdAndData.h" />
+		<Unit filename="world/block/Dirt.cpp" />
+		<Unit filename="world/block/Dirt.h" />
+		<Unit filename="world/block/blockshape/BlockShape.cpp" />
+		<Unit filename="world/block/blockshape/BlockShape.h" />
+		<Unit filename="world/block/blockshape/CubeBlockShape.cpp" />
+		<Unit filename="world/block/blockshape/CubeBlockShape.h" />
 		<Unit filename="world/chunk/Chunk.cpp" />
 		<Unit filename="world/chunk/Chunk.h" />
 		<Unit filename="world/chunk/ChunkManager.cpp" />
 		<Unit filename="world/chunk/ChunkManager.h" />
+		<Unit filename="world/entity/Entity.cpp" />
+		<Unit filename="world/entity/Entity.h" />
+		<Unit filename="world/entity/player/Player.cpp" />
+		<Unit filename="world/entity/player/Player.h" />
 		<Unit filename="world/generation/WorldGenerator.cpp" />
 		<Unit filename="world/generation/WorldGenerator.h" />
 		<Extensions>

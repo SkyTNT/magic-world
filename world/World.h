@@ -2,7 +2,7 @@
 
 #include <vector>
 #include <glm/vec3.hpp>
-#include "../block/BlockIdAndData.h"
+#include "block/BlockIdAndData.h"
 
 class Player;
 class ChunkManager;

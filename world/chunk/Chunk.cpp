@@ -1,15 +1,20 @@
 #include "Chunk.h"
 #include "../World.h"
-#include "../../block/blockshape/BlockShape.h"
+#include "../block/blockshape/BlockShape.h"
 #include "../../client/render/objectgroup/BlockObjectGroup.h"
 #include <string.h>
 #include <glm/vec3.hpp>
 #include "../../utils/Utils.h"
 #include "../../thread/ThreadPool.h"
+#include "../block/Block.h"
 
 Chunk::ChunkSection::ChunkSection()
 {
     memset(mBlocks,0,sizeof(mBlocks));
+}
+
+Chunk::ChunkSection::~ChunkSection()
+{
 }
 
 Chunk::Chunk(World* _world)

@@ -1,5 +1,5 @@
 #include "Player.h"
-#include "../../world/World.h"
+#include "../../World.h"
 
 Player::Player():Entity(){
 

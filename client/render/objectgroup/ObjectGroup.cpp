@@ -27,14 +27,15 @@ ObjectGroup::~ObjectGroup()
 
 void ObjectGroup::init()
 {
-newCapacity(16*16*36);
+    newCapacity(16*16*36);
 }
 BufferID ObjectGroup::allocateBuffer(size_t vertexCount)
 {
     if(mVertexCount+vertexCount>mVertexCapacity)
     {
         int result=newCapacity(mVertexCount+vertexCount+2*16*16*36);
-        if(result<0)LOG_I("allocate buffer err:"+i2s(result));
+        if(result<0)
+            LOG_I("allocate buffer err:"+i2s(result));
     }
 
     lastID++;
@@ -47,8 +48,16 @@ int ObjectGroup::writeBuffer(Buffer target,void* buff,size_t vertexCount)
 {
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
-    if(vboptr==0)return -1;
-    memcpy(vboptr+target.startVertex*STEP_LONG,buff,target.vertexCount*STEP_LONG);
+    if(vboptr==0)
+        return -1;
+    if(buff==0)
+    {
+        memset(vboptr+target.startVertex*STEP_LONG,0,target.vertexCount*STEP_LONG);
+    }
+    else
+    {
+        memcpy(vboptr+target.startVertex*STEP_LONG,buff,target.vertexCount*STEP_LONG);
+    }
     glUnmapBuffer(GL_ARRAY_BUFFER);
     //glBufferSubData(GL_ARRAY_BUFFER,target.startVertex*STEP_LONG,target.vertexCount*STEP_LONG,buff);//instead
     glBindBuffer(GL_ARRAY_BUFFER, 0);
@@ -59,10 +68,11 @@ int ObjectGroup::translate(Buffer target,glm::vec3 pos)
 {
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
-    if(vboptr==0)return -1;
+    if(vboptr==0)
+        return -1;
     glm::mat4 model;
     model = glm::translate(model,pos);
-    for(unsigned int i=0;i<target.vertexCount;i++)
+    for(unsigned int i=0; i<target.vertexCount; i++)
     {
         glm::vec3* vertexpos=(glm::vec3*)(vboptr+(target.startVertex+i)*STEP_LONG);
         glm::vec4 result=glm::vec4(*vertexpos,1);
@@ -78,8 +88,9 @@ int ObjectGroup::useTexture(Buffer target,Texture* tex)
 {
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
-    if(vboptr==0)return -1;
-    for(unsigned int i=0;i<target.vertexCount;i++)
+    if(vboptr==0)
+        return -1;
+    for(unsigned int i=0; i<target.vertexCount; i++)
     {
         glm::vec2* uv=(glm::vec2*)(vboptr+(target.startVertex+i)*STEP_LONG+6*sizeof(float));
         float width=tex->u2-tex->u1;
@@ -95,7 +106,8 @@ int ObjectGroup::useTexture(Buffer target,Texture* tex)
 ObjectGroup::Buffer ObjectGroup::getBuffer(BufferID id)
 {
     auto it=mBuffers.find(id);
-    return it==mBuffers.end()?ObjectGroup::Buffer{0,0}:it->second;
+    return it==mBuffers.end()?ObjectGroup::Buffer{0,0}:
+           it->second;
 }
 
 int ObjectGroup::newCapacity(size_t vertexCount)
@@ -108,7 +120,7 @@ int ObjectGroup::newCapacity(size_t vertexCount)
     glBindVertexArray(_vao);
 
     glBindBuffer(GL_ARRAY_BUFFER, _vbo);
-    glBufferData(GL_ARRAY_BUFFER, vertexCount*STEP_LONG,0 , GL_DYNAMIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, vertexCount*STEP_LONG,0, GL_DYNAMIC_DRAW);
 
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, STEP_LONG, (GLvoid*)0);
     glEnableVertexAttribArray(0);
@@ -130,11 +142,13 @@ int ObjectGroup::newCapacity(size_t vertexCount)
 
     glBindBuffer(GL_ARRAY_BUFFER, _vbo);
     void* _vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
-    if(_vboptr==0)return -1;
+    if(_vboptr==0)
+        return -1;
 
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
-    if(vboptr==0)return -2;
+    if(vboptr==0)
+        return -2;
     memcpy(_vboptr,vboptr,mVertexCapacity*STEP_LONG);
     glUnmapBuffer(GL_ARRAY_BUFFER);
     glBindBuffer(GL_ARRAY_BUFFER, _vbo);

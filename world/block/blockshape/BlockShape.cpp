@@ -1,7 +1,7 @@
 #include "BlockShape.h"
-#include "../../client/render/RendererContext.h"
+#include "../../../client/render/RendererContext.h"
 #include "CubeBlockShape.h"
-#include "../../utils/Utils.h"
+#include "../../../utils/Utils.h"
 
 
 BlockShape* BlockShape::mBlockShapes[1024];

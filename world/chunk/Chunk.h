@@ -6,7 +6,8 @@
 #include <mutex>
 #include <condition_variable>
 #include "../../utils/VecUtils.h"
-#include "../../block/Block.h"
+#include "../block/BlockIdAndData.h"
+#include "../../client/render/objectgroup/ObjectGroup.h"
 
 #define CHUNK_SIZE 16
 
@@ -20,14 +21,22 @@ private:
 
     class ChunkSection
     {
+    private:
+        struct BlockInfo
+        {
+            BlockIdAndData idanddata;
+            std::vector<BufferID> usedbuffers;
+        };
     public:
         BlockIdAndData mBlocks[CHUNK_SIZE][CHUNK_SIZE];
         ChunkSection();
+        ~ChunkSection();
+
     };
 
 public:
     glm::ivec3 pos;
-    std::map<int ,ChunkSection*>chunkSections;
+    std::map<int,ChunkSection*>chunkSections;
     std::mutex mMutex;
     BlockObjectGroup*blockObjGroup;
 
