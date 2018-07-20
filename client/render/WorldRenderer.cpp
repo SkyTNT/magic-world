@@ -45,7 +45,7 @@ void WorldRenderer::init()
     RendererContext::linkShader(&blockShader,cvs,cfs);
 
     context->light0.setLightColor(glm::vec3(1,1,1));
-    context->light0.setPos(glm::vec3(0,256,0));
+    context->light0.setPos(glm::vec3(0,100,0));
 
     mPlayer=client->getMainPlayer();
     bs->init();

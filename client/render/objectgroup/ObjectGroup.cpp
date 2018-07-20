@@ -47,19 +47,7 @@ BufferID ObjectGroup::allocateBuffer(size_t vertexCount)
 int ObjectGroup::writeBuffer(Buffer target,void* buff,size_t vertexCount)
 {
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
-    if(vboptr==0)
-        return -1;
-    if(buff==0)
-    {
-        memset(vboptr+target.startVertex*STEP_LONG,0,target.vertexCount*STEP_LONG);
-    }
-    else
-    {
-        memcpy(vboptr+target.startVertex*STEP_LONG,buff,target.vertexCount*STEP_LONG);
-    }
-    glUnmapBuffer(GL_ARRAY_BUFFER);
-    //glBufferSubData(GL_ARRAY_BUFFER,target.startVertex*STEP_LONG,target.vertexCount*STEP_LONG,buff);//instead
+    glBufferSubData(GL_ARRAY_BUFFER,target.startVertex*STEP_LONG,target.vertexCount*STEP_LONG,buff);//instead
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     return 0;
 }
@@ -128,7 +116,7 @@ int ObjectGroup::newCapacity(size_t vertexCount)
     glEnableVertexAttribArray(1);
     glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, STEP_LONG, (GLvoid*)(6 * sizeof(GLfloat)));
     glEnableVertexAttribArray(2);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindBuffer(GL_ARRAY_BUFFER,0);
 
     glBindVertexArray(0);
 
@@ -139,21 +127,11 @@ int ObjectGroup::newCapacity(size_t vertexCount)
         mVertexCapacity=vertexCount;
         return 0;
     }
-
-    glBindBuffer(GL_ARRAY_BUFFER, _vbo);
-    void* _vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
-    if(_vboptr==0)
-        return -1;
-
-    glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    void* vboptr = glMapBuffer(GL_ARRAY_BUFFER, GL_READ_WRITE);
-    if(vboptr==0)
-        return -2;
-    memcpy(_vboptr,vboptr,mVertexCapacity*STEP_LONG);
-    glUnmapBuffer(GL_ARRAY_BUFFER);
-    glBindBuffer(GL_ARRAY_BUFFER, _vbo);
-    glUnmapBuffer(GL_ARRAY_BUFFER);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindBuffer(GL_COPY_WRITE_BUFFER, _vbo);
+    glBindBuffer(GL_COPY_READ_BUFFER, vbo);
+    glCopyBufferSubData(GL_COPY_READ_BUFFER,GL_COPY_WRITE_BUFFER,0,0,mVertexCapacity*STEP_LONG);
+    glBindBuffer(GL_COPY_WRITE_BUFFER, 0);
+    glBindBuffer(GL_COPY_READ_BUFFER, 0);
 
     glDeleteVertexArrays(1,&vao);
     glDeleteBuffers(1,&vbo);
