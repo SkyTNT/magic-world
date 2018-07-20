@@ -32,7 +32,6 @@ void ChunkManager::loadChunk(glm::ivec2 key)
     chunk->setPos(glm::ivec3(key.x*CHUNK_SIZE,0,key.y*CHUNK_SIZE));
     mWorld->worldgenerator->genChunk(chunk);
     mChunks[key]=chunk;
-    LOG_I(i2s(mChunks.size()));
 }
 
 void ChunkManager::loadChunk(glm::ivec3 bpos)
